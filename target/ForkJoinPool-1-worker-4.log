@@ -1,0 +1,343 @@
+23:25:40.819 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.847 [print] Hello Karate World
+23:25:40.855 [print] another file print
+23:25:40.862 [print] my name is Alp
+23:25:40.881 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.948 [print] 2
+23:25:40.948 [print] [
+  {
+    "name": "Alp",
+    "role": "admin",
+    "age": 30
+  },
+  {
+    "name": "Kemal",
+    "role": "admin",
+    "age": 40
+  }
+]
+
+23:25:40.958 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.045 [print] my name is Robert
+23:25:41.059 [print] Robert is 19 year old
+23:25:41.063 [print] 10
+23:25:41.070 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.447 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=Ramanzi%40test.com&password=Test123456
+
+23:25:42.052 response time in milliseconds: 602.91
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE2NzU5NDQ0ODEsImVuZHMiOjE2NzY1NDkyODF9.vjvVU94rkm9lHCGe8SqAgX72G48ES8iq7p5_TrN0iSIrvLoKJFRldoGHzilxuokt1TMP8DIfkCuyrvSNKWyeeg"}
+
+23:25:42.053 [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE2NzU5NDQ0ODEsImVuZHMiOjE2NzY1NDkyODF9.vjvVU94rkm9lHCGe8SqAgX72G48ES8iq7p5_TrN0iSIrvLoKJFRldoGHzilxuokt1TMP8DIfkCuyrvSNKWyeeg"
+}
+
+23:25:42.062 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.066 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 111
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"name":"Karate09 Alp","email":"KAlp09@krafttechexlab.com","password":"123467","about":"About Me","terms":"10"}
+
+23:25:42.212 response time in milliseconds: 145.90
+1 < 404
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"message":"This Email Is Used..."}
+
+23:25:42.213 [print] {
+  "message": "This Email Is Used..."
+}
+
+23:25:42.216 [print] 
+23:25:42.229 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.234 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user66%40test.com&password=Test123456
+
+23:25:42.438 response time in milliseconds: 203.90
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE2NzU5NDQ2MjcsImVuZHMiOjE2NzY1NDk0Mjd9.OwYdMOAWCoMgfGaMEkRJfeueAWVQktf68P0Q2X3cExEhK_TnFBFaXRG7nlN51yZt-aDFgBZtpxhrVzqKS_rdsA"}
+
+23:25:42.439 [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE2NzU5NDQ2MjcsImVuZHMiOjE2NzY1NDk0Mjd9.OwYdMOAWCoMgfGaMEkRJfeueAWVQktf68P0Q2X3cExEhK_TnFBFaXRG7nlN51yZt-aDFgBZtpxhrVzqKS_rdsA"
+}
+
+23:25:42.446 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user11%40test.com&password=Test123456
+
+23:25:42.651 response time in milliseconds: 202.58
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE2NzU5NDQ1NjQsImVuZHMiOjE2NzY1NDkzNjR9.9iJrIwPm4JNsGnDBBXRKxnFuZqcUzYajpzkZJSza5zjkRnBOgtidhVGF0JO6aVy8heK1ceSE31Am8XUgeMzQYg"}
+
+23:25:42.652 [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE2NzU5NDQ1NjQsImVuZHMiOjE2NzY1NDkzNjR9.9iJrIwPm4JNsGnDBBXRKxnFuZqcUzYajpzkZJSza5zjkRnBOgtidhVGF0JO6aVy8heK1ceSE31Am8XUgeMzQYg"
+}
+
+23:25:42.659 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.667 request:
+1 > GET https://www.krafttechexlab.com/sw/api/v1/allusers/getbyid/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:42.786 response time in milliseconds: 119.05
+1 < 200
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+[{"id":1,"name":"MercanS","email":"afmercan@gmail.com","password":"$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3\/9QIFQ.dSVTGIetNUbNQx2gMFEAK","about":"About","terms":"16","date":"2022-09-12 20:50:38","job":"Manual Tester","company":"Mrcn Software","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":"aFmGit","twitter":"aFmTwitter","facebook":"aFmFace","youtube":"aFmYoutube","linkedin":"aFmLinkedin","instagram":"aFmInstagram","avatar":"1","admin":"1","education":[{"id":44,"school":"School or Bootcamp","degree":"Degree","study":"Study","description":"Program Description","fromdate":"2000-12-02","todate":"2004-12-01","date":"2022-09-25 01:03:22"},{"id":120,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:01:24"},{"id":121,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:06"},{"id":122,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:51"}],"experience":[{"id":38,"job":"Junior Developer1","company":"Kraft Techex1","location":"USA2","description":"Description2","fromdate":"2019-01-01","todate":"2022-10-09","date":"2022-09-05 18:10:26"},{"id":56,"job":"Junior Developer1","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2020-01-10","todate":"2022-10-09","date":"2022-10-09 17:52:44"},{"id":189,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2000-01-01","todate":"2023-01-21","date":"2023-01-08 17:46:07"}]}]
+
+23:25:42.787 [print] [
+  {
+    "date": "2022-09-12 20:50:38",
+    "youtube": "aFmYoutube",
+    "website": "https://www.krafttechexlab.com/",
+    "github": "aFmGit",
+    "education": [
+      {
+        "date": "2022-09-25 01:03:22",
+        "study": "Study",
+        "todate": "2004-12-01",
+        "school": "School or Bootcamp",
+        "degree": "Degree",
+        "description": "Program Description",
+        "id": 44,
+        "fromdate": "2000-12-02"
+      },
+      {
+        "date": "2023-01-08 23:01:24",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 120,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:06",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 121,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:51",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 122,
+        "fromdate": "2020-05-05"
+      }
+    ],
+    "facebook": "aFmFace",
+    "about": "About",
+    "admin": "1",
+    "linkedin": "aFmLinkedin",
+    "instagram": "aFmInstagram",
+    "avatar": "1",
+    "experience": [
+      {
+        "date": "2022-09-05 18:10:26",
+        "todate": "2022-10-09",
+        "description": "Description2",
+        "company": "Kraft Techex1",
+        "location": "USA2",
+        "id": 38,
+        "job": "Junior Developer1",
+        "fromdate": "2019-01-01"
+      },
+      {
+        "date": "2022-10-09 17:52:44",
+        "todate": "2022-10-09",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 56,
+        "job": "Junior Developer1",
+        "fromdate": "2020-01-10"
+      },
+      {
+        "date": "2023-01-08 17:46:07",
+        "todate": "2023-01-21",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 189,
+        "job": "Junior Developer",
+        "fromdate": "2000-01-01"
+      }
+    ],
+    "skills": [
+      "PHP",
+      "Java"
+    ],
+    "password": "$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3/9QIFQ.dSVTGIetNUbNQx2gMFEAK",
+    "twitter": "aFmTwitter",
+    "terms": "16",
+    "name": "MercanS",
+    "company": "Mrcn Software",
+    "location": "Turkey",
+    "id": 1,
+    "job": "Manual Tester",
+    "email": "afmercan@gmail.com"
+  }
+]
+
+23:25:42.792 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user55%40test.com&password=Test123456
+
+23:25:43.070 response time in milliseconds: 276.84
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE2NzU5NDQ2MTcsImVuZHMiOjE2NzY1NDk0MTd9.0WeDScUNtf7xTmdGG6FolnL9ThAKHG6KIH1JNezVb5M-VsaTY93BoRpSrK8R2D0aMQsZhBi9EMLtWz5U-aYGDg"}
+
+23:25:43.070 [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE2NzU5NDQ2MTcsImVuZHMiOjE2NzY1NDk0MTd9.0WeDScUNtf7xTmdGG6FolnL9ThAKHG6KIH1JNezVb5M-VsaTY93BoRpSrK8R2D0aMQsZhBi9EMLtWz5U-aYGDg"
+}
+
+23:25:43.077 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:43.390 [print] {
+  "password": "Test123456!",
+  "terms": "5",
+  "name": "Vince",
+  "about": "Good job",
+  "email": "Vince@test.com"
+}
+
+23:25:43.396 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/Register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 97
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"password":"Test123456!","terms":"5","name":"Vince","about":"Good job","email":"Vince@test.com"}
+
+23:25:43.605 response time in milliseconds: 208.07
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":980,"name":"Vince","email":"Vince@test.com","password":"$2y$10$HGx1iHni1t.a6o167C9pSuplnYBat.NdeifnUf8geTkuWlGNikVVy","about":"Good job","terms":"5","job":null,"company":null,"website":null,"location":null,"skills":null,"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTgwIiwic3RhcnQiOjE2NzYxNDcxODIsImVuZHMiOjE2NzY3NTE5ODJ9.RBXM8ke0EnvukcqZHwSQkDA11EHYMbetZAvYOG2lNWSzgyMcs-z_J1Fd73s7S70Ae8GUlDzZ7JOZH6_Y_ZJJJg"}
+
+23:25:43.606 [print] {
+  "youtube": null,
+  "website": null,
+  "github": null,
+  "facebook": null,
+  "about": "Good job",
+  "admin": "0",
+  "linkedin": null,
+  "instagram": null,
+  "avatar": "1",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTgwIiwic3RhcnQiOjE2NzYxNDcxODIsImVuZHMiOjE2NzY3NTE5ODJ9.RBXM8ke0EnvukcqZHwSQkDA11EHYMbetZAvYOG2lNWSzgyMcs-z_J1Fd73s7S70Ae8GUlDzZ7JOZH6_Y_ZJJJg",
+  "skills": null,
+  "password": "$2y$10$HGx1iHni1t.a6o167C9pSuplnYBat.NdeifnUf8geTkuWlGNikVVy",
+  "twitter": null,
+  "terms": "5",
+  "name": "Vince",
+  "company": null,
+  "location": null,
+  "id": 980,
+  "job": null,
+  "email": "Vince@test.com"
+}
+
+23:25:43.612 [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTgwIiwic3RhcnQiOjE2NzYxNDcxODIsImVuZHMiOjE2NzY3NTE5ODJ9.RBXM8ke0EnvukcqZHwSQkDA11EHYMbetZAvYOG2lNWSzgyMcs-z_J1Fd73s7S70Ae8GUlDzZ7JOZH6_Y_ZJJJg

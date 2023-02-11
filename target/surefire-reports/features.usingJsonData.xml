@@ -1,0 +1,12 @@
+<testsuite failures="0" name="features/usingJsonData.feature" skipped="0" tests="1" time="0.134161">
+  <testcase classname="features.usingJsonData" name="match response with expected" time="0.134161">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/getbyid' ..... passed
+* path '1' ................................................................ passed
+* header Accept = 'application/json; charset=UTF-8' ....................... passed
+* method GET .............................................................. passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* def expectedInfo = read('classpath:data/userInfo.json') ................. passed
+Then match response == expectedInfo ....................................... passed</system-out>
+  </testcase>
+</testsuite>

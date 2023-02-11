@@ -1,0 +1,120 @@
+23:25:40.820 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.447 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 111
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"name":"Karate09 Alp","email":"KAlp09@krafttechexlab.com","password":"123467","about":"About Me","terms":"10"}
+
+23:25:42.055 response time in milliseconds: 606.67
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":979,"name":"Karate09 Alp","email":"KAlp09@krafttechexlab.com","password":"$2y$10$ja5nTkKQC4V6H8j8C3fULeZdn3R88a.KKNHImWkL2yii77eQwwHVC","about":"About Me","terms":"10","job":null,"company":null,"website":null,"location":null,"skills":null,"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg"}
+
+23:25:42.057 [print] {
+  "youtube": null,
+  "website": null,
+  "github": null,
+  "facebook": null,
+  "about": "About Me",
+  "admin": "0",
+  "linkedin": null,
+  "instagram": null,
+  "avatar": "1",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg",
+  "skills": null,
+  "password": "$2y$10$ja5nTkKQC4V6H8j8C3fULeZdn3R88a.KKNHImWkL2yii77eQwwHVC",
+  "twitter": null,
+  "terms": "10",
+  "name": "Karate09 Alp",
+  "company": null,
+  "location": null,
+  "id": 979,
+  "job": null,
+  "email": "KAlp09@krafttechexlab.com"
+}
+
+23:25:42.062 [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+23:25:42.077 [print] Token comes from Background eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+23:25:42.086 request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/experience/add
+1 > Accept: application/json; charset=utf-8
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"job":"Senior QA","company":"Kraftech","location":"TR","fromdate":"2012-12-12","todate":"2016-12-12","current":"false","description":"Great job"}
+
+23:25:42.237 response time in milliseconds: 150.24
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":623,"userid":979,"job":"Senior QA","company":"Kraftech","location":"TR","description":"Great job","fromdate":"2012-12-12","todate":"2016-12-12"}
+
+23:25:42.238 [print] {
+  "todate": "2016-12-12",
+  "description": "Great job",
+  "company": "Kraftech",
+  "location": "TR",
+  "id": 623,
+  "job": "Senior QA",
+  "userid": 979,
+  "fromdate": "2012-12-12"
+}
+
+23:25:42.243 request:
+2 > GET https://www.krafttechexlab.com/sw/api/v1/experience/all
+2 > Accept: application/json; charset=utf-8
+2 > Accept-Encoding: gzip,deflate
+2 > Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+2 > Connection: Keep-Alive
+2 > Host: www.krafttechexlab.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:43.374 response time in milliseconds: 1129.83
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Connection: Upgrade, Keep-Alive
+2 < Content-Type: application/json; charset=UTF-8
+2 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+2 < Keep-Alive: timeout=2, max=100
+2 < Server: Apache/2
+2 < Upgrade: h2,h2c
+2 < Vary: Accept-Encoding,User-Agent
+[{"id":623,"job":"Senior QA","company":"Kraftech","location":"TR","description":"Great job","fromdate":"2012-12-12","todate":"2016-12-12","date":"2023-02-11 23:26:21"}]
+
+23:25:43.375 [print] [
+  {
+    "date": "2023-02-11 23:26:21",
+    "todate": "2016-12-12",
+    "description": "Great job",
+    "company": "Kraftech",
+    "location": "TR",
+    "id": 623,
+    "job": "Senior QA",
+    "fromdate": "2012-12-12"
+  }
+]
+

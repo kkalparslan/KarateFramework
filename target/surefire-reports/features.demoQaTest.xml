@@ -1,0 +1,25 @@
+<testsuite failures="0" name="features/demoQaTest.feature" skipped="0" tests="2" time="2.111199">
+  <testcase classname="features.demoQaTest" name="Get all books List" time="1.048385">
+    <system-out>Given url "https://demoqa.com/BookStore/v1/Books" ......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* match header Content-Type == "application/json; charset=utf-8" .......... passed
+* match header X-Powered-By == "Express" .................................. passed
+* match header Date == '#present' ......................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.demoQaTest" name="Json body verification" time="1.062814">
+    <system-out>Given url "https://demoqa.com/BookStore/v1/Books" ......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* match header Content-Type == "application/json; charset=utf-8" .......... passed
+* match header X-Powered-By == "Express" .................................. passed
+* match header Date == '#present' ......................................... passed
+Given url "https://demoqa.com/BookStore/v1/Books" ......................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response.books[0].author .......................................... passed
+* match response.books[0].author == "Richard E. Silverman" ................ passed</system-out>
+  </testcase>
+</testsuite>

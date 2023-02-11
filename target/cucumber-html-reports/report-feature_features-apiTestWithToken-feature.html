@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Feature: features/apiTestWithToken.feature</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>demo</td>
+            <td>11 Feb 2023, 23:25</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">features/apiTestWithToken.feature</td>
+                    <td      class="passed"    >27</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">27</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="3734587500">3s 734ms</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
+
+        
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">features/apiTestWithToken.feature</span>
+  
+
+  </div>
+
+        <div class="description indention">API Tests</div>
+
+        <div class="elements inner-level">
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">2s 438ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def AuthFeature = call read('classpath:features/postNewUser.feature')</span>
+  
+  <span class="lead-duration duration">1s 228ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/postNewUser.feature</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers'</span>
+  
+  <span class="lead-duration duration">015ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>23:25:40.820 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url baseUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">path 'register'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Accept = 'application/json; charset=UTF-8'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Content-Type = 'application/json; charset=UTF-8'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request</span>
+  
+  <span class="lead-duration duration">041ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>{
+  &quot;name&quot;: &quot;Karate09 Alp&quot;,
+  &quot;email&quot;: &quot;KAlp09@krafttechexlab.com&quot;,
+  &quot;password&quot;: &quot;123467&quot;,
+  &quot;about&quot;: &quot;About Me&quot;,
+  &quot;terms&quot;: &quot;10&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">1s 126ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>23:25:41.447 request:
+1 &gt; POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 &gt; Accept: application/json; charset=UTF-8
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 111
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: www.krafttechexlab.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{&quot;name&quot;:&quot;Karate09 Alp&quot;,&quot;email&quot;:&quot;KAlp09@krafttechexlab.com&quot;,&quot;password&quot;:&quot;123467&quot;,&quot;about&quot;:&quot;About Me&quot;,&quot;terms&quot;:&quot;10&quot;}
+
+23:25:42.055 response time in milliseconds: 606.67
+1 &lt; 200
+1 &lt; Access-Control-Allow-Methods: POST
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: Upgrade, Keep-Alive
+1 &lt; Content-Type: application/json; charset=UTF-8
+1 &lt; Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Server: Apache/2
+1 &lt; Upgrade: h2,h2c
+1 &lt; Vary: Accept-Encoding,User-Agent
+{&quot;id&quot;:979,&quot;name&quot;:&quot;Karate09 Alp&quot;,&quot;email&quot;:&quot;KAlp09@krafttechexlab.com&quot;,&quot;password&quot;:&quot;$2y$10$ja5nTkKQC4V6H8j8C3fULeZdn3R88a.KKNHImWkL2yii77eQwwHVC&quot;,&quot;about&quot;:&quot;About Me&quot;,&quot;terms&quot;:&quot;10&quot;,&quot;job&quot;:null,&quot;company&quot;:null,&quot;website&quot;:null,&quot;location&quot;:null,&quot;skills&quot;:null,&quot;github&quot;:null,&quot;twitter&quot;:null,&quot;facebook&quot;:null,&quot;youtube&quot;:null,&quot;linkedin&quot;:null,&quot;instagram&quot;:null,&quot;avatar&quot;:&quot;1&quot;,&quot;admin&quot;:&quot;0&quot;,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg&quot;}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>23:25:42.057 [print] {
+  &quot;youtube&quot;: null,
+  &quot;website&quot;: null,
+  &quot;github&quot;: null,
+  &quot;facebook&quot;: null,
+  &quot;about&quot;: &quot;About Me&quot;,
+  &quot;admin&quot;: &quot;0&quot;,
+  &quot;linkedin&quot;: null,
+  &quot;instagram&quot;: null,
+  &quot;avatar&quot;: &quot;1&quot;,
+  &quot;token&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg&quot;,
+  &quot;skills&quot;: null,
+  &quot;password&quot;: &quot;$2y$10$ja5nTkKQC4V6H8j8C3fULeZdn3R88a.KKNHImWkL2yii77eQwwHVC&quot;,
+  &quot;twitter&quot;: null,
+  &quot;terms&quot;: &quot;10&quot;,
+  &quot;name&quot;: &quot;Karate09 Alp&quot;,
+  &quot;company&quot;: null,
+  &quot;location&quot;: null,
+  &quot;id&quot;: 979,
+  &quot;job&quot;: null,
+  &quot;email&quot;: &quot;KAlp09@krafttechexlab.com&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">print response.token</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>23:25:42.062 [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def token = response.token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def userToken = AuthFeature.token</span>
+  
+  <span class="lead-duration duration">007ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print &quot;Token comes from Background&quot;, userToken</span>
+  
+  <span class="lead-duration duration">006ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details">
+        <pre>23:25:42.077 [print] Token comes from Background eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 296ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">add experience</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-9" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-10" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url 'https://www.krafttechexlab.com/sw/api/v1/experience/add'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = userToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Accept = 'application/json; charset=utf-8'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">request</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>{
+  &quot;job&quot;: &quot;Senior QA&quot;,
+  &quot;company&quot;: &quot;Kraftech&quot;,
+  &quot;location&quot;: &quot;TR&quot;,
+  &quot;fromdate&quot;: &quot;2012-12-12&quot;,
+  &quot;todate&quot;: &quot;2016-12-12&quot;,
+  &quot;current&quot;: &quot;false&quot;,
+  &quot;description&quot;: &quot;Great job&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method POST</span>
+  
+  <span class="lead-duration duration">153ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-12">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-12" class="collapse collapsable-details">
+        <pre>23:25:42.086 request:
+1 &gt; POST https://www.krafttechexlab.com/sw/api/v1/experience/add
+1 &gt; Accept: application/json; charset=utf-8
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 146
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: www.krafttechexlab.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{&quot;job&quot;:&quot;Senior QA&quot;,&quot;company&quot;:&quot;Kraftech&quot;,&quot;location&quot;:&quot;TR&quot;,&quot;fromdate&quot;:&quot;2012-12-12&quot;,&quot;todate&quot;:&quot;2016-12-12&quot;,&quot;current&quot;:&quot;false&quot;,&quot;description&quot;:&quot;Great job&quot;}
+
+23:25:42.237 response time in milliseconds: 150.24
+1 &lt; 200
+1 &lt; Access-Control-Allow-Methods: POST
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: Upgrade, Keep-Alive
+1 &lt; Content-Type: application/json; charset=UTF-8
+1 &lt; Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Server: Apache/2
+1 &lt; Upgrade: h2,h2c
+1 &lt; Vary: Accept-Encoding,User-Agent
+{&quot;id&quot;:623,&quot;userid&quot;:979,&quot;job&quot;:&quot;Senior QA&quot;,&quot;company&quot;:&quot;Kraftech&quot;,&quot;location&quot;:&quot;TR&quot;,&quot;description&quot;:&quot;Great job&quot;,&quot;fromdate&quot;:&quot;2012-12-12&quot;,&quot;todate&quot;:&quot;2016-12-12&quot;}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-13">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-13" class="collapse collapsable-details">
+        <pre>23:25:42.238 [print] {
+  &quot;todate&quot;: &quot;2016-12-12&quot;,
+  &quot;description&quot;: &quot;Great job&quot;,
+  &quot;company&quot;: &quot;Kraftech&quot;,
+  &quot;location&quot;: &quot;TR&quot;,
+  &quot;id&quot;: 623,
+  &quot;job&quot;: &quot;Senior QA&quot;,
+  &quot;userid&quot;: 979,
+  &quot;fromdate&quot;: &quot;2012-12-12&quot;
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url 'https://www.krafttechexlab.com/sw/api/v1/experience/all'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = userToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Accept = 'application/json; charset=utf-8'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">1s 132ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>23:25:42.243 request:
+2 &gt; GET https://www.krafttechexlab.com/sw/api/v1/experience/all
+2 &gt; Accept: application/json; charset=utf-8
+2 &gt; Accept-Encoding: gzip,deflate
+2 &gt; Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+2 &gt; Connection: Keep-Alive
+2 &gt; Host: www.krafttechexlab.com
+2 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:43.374 response time in milliseconds: 1129.83
+2 &lt; 200
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Connection: Upgrade, Keep-Alive
+2 &lt; Content-Type: application/json; charset=UTF-8
+2 &lt; Date: Sat, 11 Feb 2023 20:26:21 GMT
+2 &lt; Keep-Alive: timeout=2, max=100
+2 &lt; Server: Apache/2
+2 &lt; Upgrade: h2,h2c
+2 &lt; Vary: Accept-Encoding,User-Agent
+[{&quot;id&quot;:623,&quot;job&quot;:&quot;Senior QA&quot;,&quot;company&quot;:&quot;Kraftech&quot;,&quot;location&quot;:&quot;TR&quot;,&quot;description&quot;:&quot;Great job&quot;,&quot;fromdate&quot;:&quot;2012-12-12&quot;,&quot;todate&quot;:&quot;2016-12-12&quot;,&quot;date&quot;:&quot;2023-02-11 23:26:21&quot;}]</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>23:25:43.375 [print] [
+  {
+    &quot;date&quot;: &quot;2023-02-11 23:26:21&quot;,
+    &quot;todate&quot;: &quot;2016-12-12&quot;,
+    &quot;description&quot;: &quot;Great job&quot;,
+    &quot;company&quot;: &quot;Kraftech&quot;,
+    &quot;location&quot;: &quot;TR&quot;,
+    &quot;id&quot;: 623,
+    &quot;job&quot;: &quot;Senior QA&quot;,
+    &quot;fromdate&quot;: &quot;2012-12-12&quot;
+  }
+]</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

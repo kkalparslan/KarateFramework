@@ -1,0 +1,1125 @@
+23:25:40.699 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:25:40.817 [ForkJoinPool-1-worker-2] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.817 [ForkJoinPool-1-worker-5] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.817 [pool-1-thread-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.817 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.817 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.817 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.847 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] Hello Karate World
+23:25:40.855 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] another file print
+23:25:40.862 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] my name is Alp
+23:25:40.865 [ForkJoinPool-1-worker-2] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.881 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.948 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] 2
+23:25:40.948 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Alp",
+    "role": "admin",
+    "age": 30
+  },
+  {
+    "name": "Kemal",
+    "role": "admin",
+    "age": 40
+  }
+]
+
+23:25:40.958 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:40.966 [ForkJoinPool-1-worker-2] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.044 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] my name is Robert
+23:25:41.059 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] Robert is 19 year old
+23:25:41.062 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] 10
+23:25:41.070 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.095 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 9: classpath:features/assertions.feature
+23:25:41.445 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://demoqa.com/BookStore/v1/Books
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: demoqa.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:41.445 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://demoqa.com/BookStore/v1/Books
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: demoqa.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:41.447 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=Ramanzi%40test.com&password=Test123456
+
+23:25:41.447 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=KAlp8%40krafttechexlab.com&password=123467
+
+23:25:41.447 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 111
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"name":"Karate09 Alp","email":"KAlp09@krafttechexlab.com","password":"123467","about":"About Me","terms":"10"}
+
+23:25:41.866 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 418.88
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 4514
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 11 Feb 2023 20:25:42 GMT
+1 < ETag: W/"11a2-8zfX++QwcgaCjSU6F8JP9fUd1tY"
+1 < Server: nginx/1.17.10 (Ubuntu)
+1 < X-Powered-By: Express
+{"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+
+23:25:41.868 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 418.88
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Length: 4514
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 11 Feb 2023 20:25:42 GMT
+1 < ETag: W/"11a2-8zfX++QwcgaCjSU6F8JP9fUd1tY"
+1 < Server: nginx/1.17.10 (Ubuntu)
+1 < X-Powered-By: Express
+{"books":[{"isbn":"9781449325862","title":"Git Pocket Guide","subTitle":"A Working Introduction","author":"Richard E. Silverman","publish_date":"2020-06-04T08:48:39.000Z","publisher":"O'Reilly Media","pages":234,"description":"This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp","website":"http://chimera.labs.oreilly.com/books/1230000000561/index.html"},{"isbn":"9781449331818","title":"Learning JavaScript Design Patterns","subTitle":"A JavaScript and jQuery Developer's Guide","author":"Addy Osmani","publish_date":"2020-06-04T09:11:40.000Z","publisher":"O'Reilly Media","pages":254,"description":"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da","website":"http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"},{"isbn":"9781449337711","title":"Designing Evolvable Web APIs with ASP.NET","subTitle":"Harnessing the Power of the Web","author":"Glenn Block et al.","publish_date":"2020-06-04T09:12:43.000Z","publisher":"O'Reilly Media","pages":238,"description":"Design and build Web APIs for a broad range of clients—including browsers and mobile devices—that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft","website":"http://chimera.labs.oreilly.com/books/1234000001708/index.html"},{"isbn":"9781449365035","title":"Speaking JavaScript","subTitle":"An In-Depth Guide for Programmers","author":"Axel Rauschmayer","publish_date":"2014-02-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":460,"description":"Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o","website":"http://speakingjs.com/"},{"isbn":"9781491904244","title":"You Don't Know JS","subTitle":"ES6 & Beyond","author":"Kyle Simpson","publish_date":"2015-12-27T00:00:00.000Z","publisher":"O'Reilly Media","pages":278,"description":"No matter how much experience you have with JavaScript, odds are you don’t fully understand the language. As part of the \\\"You Don’t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st","website":"https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond"},{"isbn":"9781491950296","title":"Programming JavaScript Applications","subTitle":"Robust Web Architecture with Node, HTML5, and Modern JS Libraries","author":"Eric Elliott","publish_date":"2014-07-01T00:00:00.000Z","publisher":"O'Reilly Media","pages":254,"description":"Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex","website":"http://chimera.labs.oreilly.com/books/1234000000262/index.html"},{"isbn":"9781593275846","title":"Eloquent JavaScript, Second Edition","subTitle":"A Modern Introduction to Programming","author":"Marijn Haverbeke","publish_date":"2014-12-14T00:00:00.000Z","publisher":"No Starch Press","pages":472,"description":"JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ","website":"http://eloquentjavascript.net/"},{"isbn":"9781593277574","title":"Understanding ECMAScript 6","subTitle":"The Definitive Guide for JavaScript Developers","author":"Nicholas C. Zakas","publish_date":"2016-09-03T00:00:00.000Z","publisher":"No Starch Press","pages":352,"description":"ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E","website":"https://leanpub.com/understandinges6/read"}]}
+
+23:25:41.871 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "books": [
+    {
+      "website": "http://chimera.labs.oreilly.com/books/1230000000561/index.html",
+      "pages": 234,
+      "subTitle": "A Working Introduction",
+      "author": "Richard E. Silverman",
+      "isbn": "9781449325862",
+      "publisher": "O'Reilly Media",
+      "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp",
+      "title": "Git Pocket Guide",
+      "publish_date": "2020-06-04T08:48:39.000Z"
+    },
+    {
+      "website": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/",
+      "pages": 254,
+      "subTitle": "A JavaScript and jQuery Developer's Guide",
+      "author": "Addy Osmani",
+      "isbn": "9781449331818",
+      "publisher": "O'Reilly Media",
+      "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da",
+      "title": "Learning JavaScript Design Patterns",
+      "publish_date": "2020-06-04T09:11:40.000Z"
+    },
+    {
+      "website": "http://chimera.labs.oreilly.com/books/1234000001708/index.html",
+      "pages": 238,
+      "subTitle": "Harnessing the Power of the Web",
+      "author": "Glenn Block et al.",
+      "isbn": "9781449337711",
+      "publisher": "O'Reilly Media",
+      "description": "Design and build Web APIs for a broad range of clients\u2014including browsers and mobile devices\u2014that can adapt to change over time. This practical, hands-on guide takes you through the theory and tools you need to build evolvable HTTP services with Microsoft",
+      "title": "Designing Evolvable Web APIs with ASP.NET",
+      "publish_date": "2020-06-04T09:12:43.000Z"
+    },
+    {
+      "website": "http://speakingjs.com/",
+      "pages": 460,
+      "subTitle": "An In-Depth Guide for Programmers",
+      "author": "Axel Rauschmayer",
+      "isbn": "9781449365035",
+      "publisher": "O'Reilly Media",
+      "description": "Like it or not, JavaScript is everywhere these days-from browser to server to mobile-and now you, too, need to learn the language or dive deeper than you have. This concise book guides you into and through JavaScript, written by a veteran programmer who o",
+      "title": "Speaking JavaScript",
+      "publish_date": "2014-02-01T00:00:00.000Z"
+    },
+    {
+      "website": "https://github.com/getify/You-Dont-Know-JS/tree/master/es6%20&%20beyond",
+      "pages": 278,
+      "subTitle": "ES6 & Beyond",
+      "author": "Kyle Simpson",
+      "isbn": "9781491904244",
+      "publisher": "O'Reilly Media",
+      "description": "No matter how much experience you have with JavaScript, odds are you don\u2019t fully understand the language. As part of the \\\"You Don\u2019t Know JS\\\" series, this compact guide focuses on new features available in ECMAScript 6 (ES6), the latest version of the st",
+      "title": "You Don't Know JS",
+      "publish_date": "2015-12-27T00:00:00.000Z"
+    },
+    {
+      "website": "http://chimera.labs.oreilly.com/books/1234000000262/index.html",
+      "pages": 254,
+      "subTitle": "Robust Web Architecture with Node, HTML5, and Modern JS Libraries",
+      "author": "Eric Elliott",
+      "isbn": "9781491950296",
+      "publisher": "O'Reilly Media",
+      "description": "Take advantage of JavaScript's power to build robust web-scale or enterprise applications that are easy to extend and maintain. By applying the design patterns outlined in this practical book, experienced JavaScript developers will learn how to write flex",
+      "title": "Programming JavaScript Applications",
+      "publish_date": "2014-07-01T00:00:00.000Z"
+    },
+    {
+      "website": "http://eloquentjavascript.net/",
+      "pages": 472,
+      "subTitle": "A Modern Introduction to Programming",
+      "author": "Marijn Haverbeke",
+      "isbn": "9781593275846",
+      "publisher": "No Starch Press",
+      "description": "JavaScript lies at the heart of almost every modern web application, from social apps to the newest browser-based games. Though simple for beginners to pick up and play with, JavaScript is a flexible, complex language that you can use to build full-scale ",
+      "title": "Eloquent JavaScript, Second Edition",
+      "publish_date": "2014-12-14T00:00:00.000Z"
+    },
+    {
+      "website": "https://leanpub.com/understandinges6/read",
+      "pages": 352,
+      "subTitle": "The Definitive Guide for JavaScript Developers",
+      "author": "Nicholas C. Zakas",
+      "isbn": "9781593277574",
+      "publisher": "No Starch Press",
+      "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that E",
+      "title": "Understanding ECMAScript 6",
+      "publish_date": "2016-09-03T00:00:00.000Z"
+    }
+  ]
+}
+
+23:25:41.894 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.895 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] Richard E. Silverman
+23:25:41.895 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "name": "Hasan",
+  "role": "admin"
+}
+
+23:25:41.904 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] Hasan
+23:25:41.908 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 9: classpath:features/demoQaTest.feature
+23:25:41.909 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] admin
+23:25:41.910 [ForkJoinPool-1-worker-5] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.917 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user11%40test.com&password=Test123456
+
+23:25:41.918 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:41.924 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user22%40test.com&password=Test123456
+
+23:25:42.052 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 602.91
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE2NzU5NDQ0ODEsImVuZHMiOjE2NzY1NDkyODF9.vjvVU94rkm9lHCGe8SqAgX72G48ES8iq7p5_TrN0iSIrvLoKJFRldoGHzilxuokt1TMP8DIfkCuyrvSNKWyeeg"}
+
+23:25:42.052 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE2NzU5NDQ0ODEsImVuZHMiOjE2NzY1NDkyODF9.vjvVU94rkm9lHCGe8SqAgX72G48ES8iq7p5_TrN0iSIrvLoKJFRldoGHzilxuokt1TMP8DIfkCuyrvSNKWyeeg"
+}
+
+23:25:42.055 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 606.67
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":979,"name":"Karate09 Alp","email":"KAlp09@krafttechexlab.com","password":"$2y$10$ja5nTkKQC4V6H8j8C3fULeZdn3R88a.KKNHImWkL2yii77eQwwHVC","about":"About Me","terms":"10","job":null,"company":null,"website":null,"location":null,"skills":null,"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg"}
+
+23:25:42.055 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 606.32
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTMyIiwic3RhcnQiOjE2NzYwNTk5NDcsImVuZHMiOjE2NzY2NjQ3NDd9.xPAv7KrW_hXMYcrHeuXOcOiFoiD8pgISBfTHNUjGxhzgYS2nchWyO2Mbp2P5XTtO5fjDQs_1nZpnLpoJMfpxrA"}
+
+23:25:42.056 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTMyIiwic3RhcnQiOjE2NzYwNTk5NDcsImVuZHMiOjE2NzY2NjQ3NDd9.xPAv7KrW_hXMYcrHeuXOcOiFoiD8pgISBfTHNUjGxhzgYS2nchWyO2Mbp2P5XTtO5fjDQs_1nZpnLpoJMfpxrA"
+}
+
+23:25:42.057 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "youtube": null,
+  "website": null,
+  "github": null,
+  "facebook": null,
+  "about": "About Me",
+  "admin": "0",
+  "linkedin": null,
+  "instagram": null,
+  "avatar": "1",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg",
+  "skills": null,
+  "password": "$2y$10$ja5nTkKQC4V6H8j8C3fULeZdn3R88a.KKNHImWkL2yii77eQwwHVC",
+  "twitter": null,
+  "terms": "10",
+  "name": "Karate09 Alp",
+  "company": null,
+  "location": null,
+  "id": 979,
+  "job": null,
+  "email": "KAlp09@krafttechexlab.com"
+}
+
+23:25:42.061 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+23:25:42.062 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.063 [ForkJoinPool-1-worker-2] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.065 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 111
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"name":"Karate09 Alp","email":"KAlp09@krafttechexlab.com","password":"123467","about":"About Me","terms":"10"}
+
+23:25:42.072 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user33%40test.com&password=Test123456
+
+23:25:42.077 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] Token comes from Background eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+23:25:42.086 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/experience/add
+1 > Accept: application/json; charset=utf-8
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+1 > Connection: Keep-Alive
+1 > Content-Length: 146
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"job":"Senior QA","company":"Kraftech","location":"TR","fromdate":"2012-12-12","todate":"2016-12-12","current":"false","description":"Great job"}
+
+23:25:42.181 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 256.05
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE2NzU5NDQ1ODQsImVuZHMiOjE2NzY1NDkzODR9.Lysf5Kd3OBxz0i4zNfVgqSyQiNseOMA2Y1_CKUi8uy_8YKyqebaPaweBP3jNfqT029vcqWUdAFDpIUgvXM9Bgg"}
+
+23:25:42.182 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE2NzU5NDQ1ODQsImVuZHMiOjE2NzY1NDkzODR9.Lysf5Kd3OBxz0i4zNfVgqSyQiNseOMA2Y1_CKUi8uy_8YKyqebaPaweBP3jNfqT029vcqWUdAFDpIUgvXM9Bgg"
+}
+
+23:25:42.186 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 268.65
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE2NzU5NDQ1NjQsImVuZHMiOjE2NzY1NDkzNjR9.9iJrIwPm4JNsGnDBBXRKxnFuZqcUzYajpzkZJSza5zjkRnBOgtidhVGF0JO6aVy8heK1ceSE31Am8XUgeMzQYg"}
+
+23:25:42.187 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE2NzU5NDQ1NjQsImVuZHMiOjE2NzY1NDkzNjR9.9iJrIwPm4JNsGnDBBXRKxnFuZqcUzYajpzkZJSza5zjkRnBOgtidhVGF0JO6aVy8heK1ceSE31Am8XUgeMzQYg"
+}
+
+23:25:42.188 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.189 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "name": "Hasan",
+  "role": "admin",
+  "age": 44
+}
+
+23:25:42.202 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] 44
+23:25:42.204 [ForkJoinPool-1-worker-5] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.205 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Alp",
+    "role": "admin",
+    "age": 30
+  },
+  {
+    "name": "Kemal",
+    "role": "admin",
+    "age": 40
+  }
+]
+
+23:25:42.210 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "name": "Alp",
+  "role": "admin",
+  "age": 30
+}
+
+23:25:42.210 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.212 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 145.90
+1 < 404
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"message":"This Email Is Used..."}
+
+23:25:42.213 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "message": "This Email Is Used..."
+}
+
+23:25:42.215 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] Kemal
+23:25:42.216 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] 
+23:25:42.218 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user44%40test.com&password=Test123456
+
+23:25:42.221 [ForkJoinPool-1-worker-5] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.223 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 7 of 9: classpath:features/postNewUser.feature
+23:25:42.223 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 9: classpath:features/firstKarateTest.feature
+23:25:42.228 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.228 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user55%40test.com&password=Test123456
+
+23:25:42.234 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user66%40test.com&password=Test123456
+
+23:25:42.237 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 150.24
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":623,"userid":979,"job":"Senior QA","company":"Kraftech","location":"TR","description":"Great job","fromdate":"2012-12-12","todate":"2016-12-12"}
+
+23:25:42.238 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "todate": "2016-12-12",
+  "description": "Great job",
+  "company": "Kraftech",
+  "location": "TR",
+  "id": 623,
+  "job": "Senior QA",
+  "userid": 979,
+  "fromdate": "2012-12-12"
+}
+
+23:25:42.243 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > GET https://www.krafttechexlab.com/sw/api/v1/experience/all
+2 > Accept: application/json; charset=utf-8
+2 > Accept-Encoding: gzip,deflate
+2 > Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTc5Iiwic3RhcnQiOjE2NzYxNDcxODEsImVuZHMiOjE2NzY3NTE5ODF9._ER4B1jKYAgySxxjWba1oopR4PRBjpeqakVUx4hD69RlAVVKa1d1wUhAbAyqw_rM27JFTS-YGs3DyPPp2Zi-Hg
+2 > Connection: Keep-Alive
+2 > Host: www.krafttechexlab.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:42.345 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 272.79
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE2NzU5NDQ1OTcsImVuZHMiOjE2NzY1NDkzOTd9.mFfECOkKaNCYiInOSOl9Xjfd3uUamMA-no-tUeEUlHzBQPI0be4xI7NXmGjpGIAFLGsxCznYVpzpzIMSuje3-w"}
+
+23:25:42.346 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE2NzU5NDQ1OTcsImVuZHMiOjE2NzY1NDkzOTd9.mFfECOkKaNCYiInOSOl9Xjfd3uUamMA-no-tUeEUlHzBQPI0be4xI7NXmGjpGIAFLGsxCznYVpzpzIMSuje3-w"
+}
+
+23:25:42.354 [ForkJoinPool-1-worker-2] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.361 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > GET https://www.krafttechexlab.com/sw/api/v1/allusers/getbyid/1
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:42.435 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 217.50
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE2NzU5NDQ2MDQsImVuZHMiOjE2NzY1NDk0MDR9.aB-yd42PCI48CRYRqqpMZhgNPV0YipLor1CAtRbOvFENzgiBUgDJPc0b2ISvvBckVmfyZWUyMnOtVZ0CZsU_qQ"}
+
+23:25:42.435 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 206.76
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE2NzU5NDQ2MTcsImVuZHMiOjE2NzY1NDk0MTd9.0WeDScUNtf7xTmdGG6FolnL9ThAKHG6KIH1JNezVb5M-VsaTY93BoRpSrK8R2D0aMQsZhBi9EMLtWz5U-aYGDg"}
+
+23:25:42.436 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE2NzU5NDQ2MDQsImVuZHMiOjE2NzY1NDk0MDR9.aB-yd42PCI48CRYRqqpMZhgNPV0YipLor1CAtRbOvFENzgiBUgDJPc0b2ISvvBckVmfyZWUyMnOtVZ0CZsU_qQ"
+}
+
+23:25:42.436 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE2NzU5NDQ2MTcsImVuZHMiOjE2NzY1NDk0MTd9.0WeDScUNtf7xTmdGG6FolnL9ThAKHG6KIH1JNezVb5M-VsaTY93BoRpSrK8R2D0aMQsZhBi9EMLtWz5U-aYGDg"
+}
+
+23:25:42.438 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 203.90
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE2NzU5NDQ2MjcsImVuZHMiOjE2NzY1NDk0Mjd9.OwYdMOAWCoMgfGaMEkRJfeueAWVQktf68P0Q2X3cExEhK_TnFBFaXRG7nlN51yZt-aDFgBZtpxhrVzqKS_rdsA"}
+
+23:25:42.439 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE2NzU5NDQ2MjcsImVuZHMiOjE2NzY1NDk0Mjd9.OwYdMOAWCoMgfGaMEkRJfeueAWVQktf68P0Q2X3cExEhK_TnFBFaXRG7nlN51yZt-aDFgBZtpxhrVzqKS_rdsA"
+}
+
+23:25:42.444 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=Ramanzi%40test.com&password=Test123456
+
+23:25:42.446 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user11%40test.com&password=Test123456
+
+23:25:42.446 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=thomas%40test.com&password=Test123456%21
+
+23:25:42.481 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 119.39
+1 < 200
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+[{"id":1,"name":"MercanS","email":"afmercan@gmail.com","password":"$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3\/9QIFQ.dSVTGIetNUbNQx2gMFEAK","about":"About","terms":"16","date":"2022-09-12 20:50:38","job":"Manual Tester","company":"Mrcn Software","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":"aFmGit","twitter":"aFmTwitter","facebook":"aFmFace","youtube":"aFmYoutube","linkedin":"aFmLinkedin","instagram":"aFmInstagram","avatar":"1","admin":"1","education":[{"id":44,"school":"School or Bootcamp","degree":"Degree","study":"Study","description":"Program Description","fromdate":"2000-12-02","todate":"2004-12-01","date":"2022-09-25 01:03:22"},{"id":120,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:01:24"},{"id":121,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:06"},{"id":122,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:51"}],"experience":[{"id":38,"job":"Junior Developer1","company":"Kraft Techex1","location":"USA2","description":"Description2","fromdate":"2019-01-01","todate":"2022-10-09","date":"2022-09-05 18:10:26"},{"id":56,"job":"Junior Developer1","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2020-01-10","todate":"2022-10-09","date":"2022-10-09 17:52:44"},{"id":189,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2000-01-01","todate":"2023-01-21","date":"2023-01-08 17:46:07"}]}]
+
+23:25:42.483 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] [
+  {
+    "date": "2022-09-12 20:50:38",
+    "youtube": "aFmYoutube",
+    "website": "https://www.krafttechexlab.com/",
+    "github": "aFmGit",
+    "education": [
+      {
+        "date": "2022-09-25 01:03:22",
+        "study": "Study",
+        "todate": "2004-12-01",
+        "school": "School or Bootcamp",
+        "degree": "Degree",
+        "description": "Program Description",
+        "id": 44,
+        "fromdate": "2000-12-02"
+      },
+      {
+        "date": "2023-01-08 23:01:24",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 120,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:06",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 121,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:51",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 122,
+        "fromdate": "2020-05-05"
+      }
+    ],
+    "facebook": "aFmFace",
+    "about": "About",
+    "admin": "1",
+    "linkedin": "aFmLinkedin",
+    "instagram": "aFmInstagram",
+    "avatar": "1",
+    "experience": [
+      {
+        "date": "2022-09-05 18:10:26",
+        "todate": "2022-10-09",
+        "description": "Description2",
+        "company": "Kraft Techex1",
+        "location": "USA2",
+        "id": 38,
+        "job": "Junior Developer1",
+        "fromdate": "2019-01-01"
+      },
+      {
+        "date": "2022-10-09 17:52:44",
+        "todate": "2022-10-09",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 56,
+        "job": "Junior Developer1",
+        "fromdate": "2020-01-10"
+      },
+      {
+        "date": "2023-01-08 17:46:07",
+        "todate": "2023-01-21",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 189,
+        "job": "Junior Developer",
+        "fromdate": "2000-01-01"
+      }
+    ],
+    "skills": [
+      "PHP",
+      "Java"
+    ],
+    "password": "$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3/9QIFQ.dSVTGIetNUbNQx2gMFEAK",
+    "twitter": "aFmTwitter",
+    "terms": "16",
+    "name": "MercanS",
+    "company": "Mrcn Software",
+    "location": "Turkey",
+    "id": 1,
+    "job": "Manual Tester",
+    "email": "afmercan@gmail.com"
+  }
+]
+
+23:25:42.494 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 9 of 9: classpath:features/usingJsonData.feature
+23:25:42.494 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user22%40test.com&password=Test123456
+
+23:25:42.643 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 195.43
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoxMTEsInN0YXJ0IjoxNjc1OTQ0MzkwLCJlbmRzIjoxNjc2NTQ5MTkwfQ.FMvhfS3tHRYB81Y5UYlA_qWxRJqFS8AdsyjvN0CYQjhB6QjQAxkni1s0wiGEJeSrairNwN4an51KkOZpRW4uUA"}
+
+23:25:42.644 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoxMTEsInN0YXJ0IjoxNjc1OTQ0MzkwLCJlbmRzIjoxNjc2NTQ5MTkwfQ.FMvhfS3tHRYB81Y5UYlA_qWxRJqFS8AdsyjvN0CYQjhB6QjQAxkni1s0wiGEJeSrairNwN4an51KkOZpRW4uUA"
+}
+
+23:25:42.647 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 201.93
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE2NzU5NDQ0ODEsImVuZHMiOjE2NzY1NDkyODF9.vjvVU94rkm9lHCGe8SqAgX72G48ES8iq7p5_TrN0iSIrvLoKJFRldoGHzilxuokt1TMP8DIfkCuyrvSNKWyeeg"}
+
+23:25:42.648 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE2NzU5NDQ0ODEsImVuZHMiOjE2NzY1NDkyODF9.vjvVU94rkm9lHCGe8SqAgX72G48ES8iq7p5_TrN0iSIrvLoKJFRldoGHzilxuokt1TMP8DIfkCuyrvSNKWyeeg"
+}
+
+23:25:42.650 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 202.58
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE2NzU5NDQ1NjQsImVuZHMiOjE2NzY1NDkzNjR9.9iJrIwPm4JNsGnDBBXRKxnFuZqcUzYajpzkZJSza5zjkRnBOgtidhVGF0JO6aVy8heK1ceSE31Am8XUgeMzQYg"}
+
+23:25:42.651 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user33%40test.com&password=Test123456
+
+23:25:42.651 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE2NzU5NDQ1NjQsImVuZHMiOjE2NzY1NDkzNjR9.9iJrIwPm4JNsGnDBBXRKxnFuZqcUzYajpzkZJSza5zjkRnBOgtidhVGF0JO6aVy8heK1ceSE31Am8XUgeMzQYg"
+}
+
+23:25:42.655 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user44%40test.com&password=Test123456
+
+23:25:42.659 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.666 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > GET https://www.krafttechexlab.com/sw/api/v1/allusers/getbyid/1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:42.786 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 119.05
+1 < 200
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+[{"id":1,"name":"MercanS","email":"afmercan@gmail.com","password":"$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3\/9QIFQ.dSVTGIetNUbNQx2gMFEAK","about":"About","terms":"16","date":"2022-09-12 20:50:38","job":"Manual Tester","company":"Mrcn Software","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":"aFmGit","twitter":"aFmTwitter","facebook":"aFmFace","youtube":"aFmYoutube","linkedin":"aFmLinkedin","instagram":"aFmInstagram","avatar":"1","admin":"1","education":[{"id":44,"school":"School or Bootcamp","degree":"Degree","study":"Study","description":"Program Description","fromdate":"2000-12-02","todate":"2004-12-01","date":"2022-09-25 01:03:22"},{"id":120,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:01:24"},{"id":121,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:06"},{"id":122,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:51"}],"experience":[{"id":38,"job":"Junior Developer1","company":"Kraft Techex1","location":"USA2","description":"Description2","fromdate":"2019-01-01","todate":"2022-10-09","date":"2022-09-05 18:10:26"},{"id":56,"job":"Junior Developer1","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2020-01-10","todate":"2022-10-09","date":"2022-10-09 17:52:44"},{"id":189,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2000-01-01","todate":"2023-01-21","date":"2023-01-08 17:46:07"}]}]
+
+23:25:42.787 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] [
+  {
+    "date": "2022-09-12 20:50:38",
+    "youtube": "aFmYoutube",
+    "website": "https://www.krafttechexlab.com/",
+    "github": "aFmGit",
+    "education": [
+      {
+        "date": "2022-09-25 01:03:22",
+        "study": "Study",
+        "todate": "2004-12-01",
+        "school": "School or Bootcamp",
+        "degree": "Degree",
+        "description": "Program Description",
+        "id": 44,
+        "fromdate": "2000-12-02"
+      },
+      {
+        "date": "2023-01-08 23:01:24",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 120,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:06",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 121,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:51",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 122,
+        "fromdate": "2020-05-05"
+      }
+    ],
+    "facebook": "aFmFace",
+    "about": "About",
+    "admin": "1",
+    "linkedin": "aFmLinkedin",
+    "instagram": "aFmInstagram",
+    "avatar": "1",
+    "experience": [
+      {
+        "date": "2022-09-05 18:10:26",
+        "todate": "2022-10-09",
+        "description": "Description2",
+        "company": "Kraft Techex1",
+        "location": "USA2",
+        "id": 38,
+        "job": "Junior Developer1",
+        "fromdate": "2019-01-01"
+      },
+      {
+        "date": "2022-10-09 17:52:44",
+        "todate": "2022-10-09",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 56,
+        "job": "Junior Developer1",
+        "fromdate": "2020-01-10"
+      },
+      {
+        "date": "2023-01-08 17:46:07",
+        "todate": "2023-01-21",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 189,
+        "job": "Junior Developer",
+        "fromdate": "2000-01-01"
+      }
+    ],
+    "skills": [
+      "PHP",
+      "Java"
+    ],
+    "password": "$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3/9QIFQ.dSVTGIetNUbNQx2gMFEAK",
+    "twitter": "aFmTwitter",
+    "terms": "16",
+    "name": "MercanS",
+    "company": "Mrcn Software",
+    "location": "Turkey",
+    "id": 1,
+    "job": "Manual Tester",
+    "email": "afmercan@gmail.com"
+  }
+]
+
+23:25:42.792 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user55%40test.com&password=Test123456
+
+23:25:42.868 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 217.91
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE2NzU5NDQ1OTcsImVuZHMiOjE2NzY1NDkzOTd9.mFfECOkKaNCYiInOSOl9Xjfd3uUamMA-no-tUeEUlHzBQPI0be4xI7NXmGjpGIAFLGsxCznYVpzpzIMSuje3-w"}
+
+23:25:42.870 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE2NzU5NDQ1OTcsImVuZHMiOjE2NzY1NDkzOTd9.mFfECOkKaNCYiInOSOl9Xjfd3uUamMA-no-tUeEUlHzBQPI0be4xI7NXmGjpGIAFLGsxCznYVpzpzIMSuje3-w"
+}
+
+23:25:42.876 [ForkJoinPool-1-worker-3] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:42.881 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 226.32
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE2NzU5NDQ2MDQsImVuZHMiOjE2NzY1NDk0MDR9.aB-yd42PCI48CRYRqqpMZhgNPV0YipLor1CAtRbOvFENzgiBUgDJPc0b2ISvvBckVmfyZWUyMnOtVZ0CZsU_qQ"}
+
+23:25:42.882 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE2NzU5NDQ2MDQsImVuZHMiOjE2NzY1NDk0MDR9.aB-yd42PCI48CRYRqqpMZhgNPV0YipLor1CAtRbOvFENzgiBUgDJPc0b2ISvvBckVmfyZWUyMnOtVZ0CZsU_qQ"
+}
+
+23:25:42.891 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://www.krafttechexlab.com/sw/api/v1/allusers/alluser?skills=PHP&pagesize=25&page=1
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+
+23:25:42.891 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+email=user66%40test.com&password=Test123456
+
+23:25:43.070 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 276.84
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE2NzU5NDQ2MTcsImVuZHMiOjE2NzY1NDk0MTd9.0WeDScUNtf7xTmdGG6FolnL9ThAKHG6KIH1JNezVb5M-VsaTY93BoRpSrK8R2D0aMQsZhBi9EMLtWz5U-aYGDg"}
+
+23:25:43.070 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE2NzU5NDQ2MTcsImVuZHMiOjE2NzY1NDk0MTd9.0WeDScUNtf7xTmdGG6FolnL9ThAKHG6KIH1JNezVb5M-VsaTY93BoRpSrK8R2D0aMQsZhBi9EMLtWz5U-aYGDg"
+}
+
+23:25:43.076 [ForkJoinPool-1-worker-4] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:25:43.097 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 204.15
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+[{"id":1,"name":"MercanS","email":"afmercan@gmail.com","password":"$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3\/9QIFQ.dSVTGIetNUbNQx2gMFEAK","about":"About","terms":"16","date":"2022-09-12 20:50:38","job":"Manual Tester","company":"Mrcn Software","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":"aFmGit","twitter":"aFmTwitter","facebook":"aFmFace","youtube":"aFmYoutube","linkedin":"aFmLinkedin","instagram":"aFmInstagram","avatar":"1","admin":"1","education":[{"id":44,"school":"School or Bootcamp","degree":"Degree","study":"Study","description":"Program Description","fromdate":"2000-12-02","todate":"2004-12-01","date":"2022-09-25 01:03:22"},{"id":120,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:01:24"},{"id":121,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:06"},{"id":122,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:51"}],"experience":[{"id":38,"job":"Junior Developer1","company":"Kraft Techex1","location":"USA2","description":"Description2","fromdate":"2019-01-01","todate":"2022-10-09","date":"2022-09-05 18:10:26"},{"id":56,"job":"Junior Developer1","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2020-01-10","todate":"2022-10-09","date":"2022-10-09 17:52:44"},{"id":189,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2000-01-01","todate":"2023-01-21","date":"2023-01-08 17:46:07"}]},{"id":24,"name":"mike","email":"mike@gmail.com","password":"$2y$10$KWJ2f3iTUFvkvzTS7\/O0AOBmfwYknjscuwdA8n4c25gkzFqi9tswW","about":"About","terms":"2","date":"2022-09-12 20:50:38","job":"Developer","company":"Stark - Mayer","website":"https:\/\/mike.org","location":"Lake Chrisberg","skills":["PHP","Java"],"github":"","twitter":"","facebook":"","youtube":"","linkedin":"","instagram":"","avatar":"1","admin":"0 or 1","education":[{"id":48,"school":"yk6","degree":"56u","study":"56u56","description":"56u56","fromdate":"5656-05-06","todate":"65656-05-05","date":"2022-11-25 14:09:19"},{"id":50,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:01:46"},{"id":51,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:03:04"},{"id":52,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:06:14"},{"id":53,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:07:28"},{"id":54,"school":"werewrwe","degree":"werwerwe","study":"rwerwer","description":"tyutyutyuuty","fromdate":"2222-07-25","todate":"2223-12-12","date":"2022-11-28 14:08:04"},{"id":55,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:10:59"},{"id":56,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:13:05"},{"id":57,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:17:50"},{"id":58,"school":"fsdfsd","degree":"sdfsdfsd","study":"fsdfsd","description":"dfwewewerw","fromdate":"1111-04-21","todate":"2222-04-23","date":"2022-11-28 14:18:40"},{"id":59,"school":"Krafttech Technologie Bootcamp","degree":"QA Engineer","study":"Tester","description":"Bringing a good test engineer to the IT industry","fromdate":"2022-07-25","todate":"2022-03-25","date":"2022-11-28 14:20:14"}],"experience":[{"id":87,"job":"QA","company":"GHAN IT","location":"ANKARA","description":"Cool Workplace","fromdate":"2020-02-02","todate":"2022-02-02","date":"2022-11-23 20:49:15"},{"id":89,"job":"QA","company":"GAHN TI","location":"Izmir","description":"Cool Workplace","fromdate":"2020-02-02","todate":"2020-02-02","date":"2022-11-23 20:50:16"},{"id":91,"job":"QA","company":"KraftTech","location":"Ankara","description":"Nice work","fromdate":"12021-02-11","todate":"12022-02-11","date":"2022-11-23 20:51:58"},{"id":93,"job":"Tester","company":"GHAN IT","location":"ankara","description":"Coll Workplace","fromdate":"2020-02-02","todate":"2022-02-02","date":"2022-11-23 21:01:53"},{"id":94,"job":"QA","company":"KraftTech","location":"Ankara","description":"Nice work","fromdate":"12021-02-11","todate":"12022-02-11","date":"2022-11-23 21:48:00"},{"id":95,"job":"qa","company":"\u015firket","location":"usa","description":"erferergergergergerg","fromdate":"2022-02-22","todate":"2023-06-22","date":"2022-11-24 11:39:44"},{"id":99,"job":"QA","company":"Ghan It","location":"Ankara","description":"Cool Workplace","fromdate":"2001-12-20","todate":"2021-04-14","date":"2022-11-25 13:42:40"},{"id":100,"job":"QA","company":"GHAN IT","location":"ANKARA","description":"Cool Workplace","fromdate":"2020-02-02","todate":"2022-02-02","date":"2022-11-25 16:57:13"},{"id":101,"job":"SDET","company":"Krafttech","location":"Madrid","description":"","fromdate":"2022-07-25","todate":"Now","date":"2022-11-25 16:57:14"},{"id":273,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2011-01-01","todate":"2012-01-01","date":"2023-02-01 18:53:16"},{"id":274,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:53:58"},{"id":275,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:54:24"},{"id":276,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:55:19"},{"id":277,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:57:11"},{"id":278,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:57:19"},{"id":279,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:57:25"},{"id":280,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:58:48"},{"id":281,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:58:59"},{"id":282,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 18:59:15"},{"id":283,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 20:08:11"},{"id":284,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2014-01-01","todate":"2015-01-01","date":"2023-02-01 20:09:47"}]},{"id":102,"name":"GHAN","email":"qateam@test.com","password":"$2y$10$MDxJgGTXav9daQ68\/h5uneYz919JbeWeMFG83ztrfAQF5vs6qUNXe","about":"about what","terms":"2","date":"2022-12-22 01:28:03","job":"Test Automation Engineer","company":"GHAN com","website":"https:\/\/www.ghan.com\/","location":"Nederland","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"1","education":[{"id":115,"school":"Delft Tecnologie University","degree":"Becholar","study":"Computer Science","description":"Description","fromdate":"2022-01-22","todate":"2022-12-12","date":"2022-12-22 01:40:31"}],"experience":[{"id":180,"job":"Junior Tester","company":"Ghan Comp","location":"NL","description":"Description","fromdate":"2019-01-01","todate":"2022-12-12","date":"2022-12-22 01:38:38"}]},{"id":110,"name":"Ali TANUpdated","email":"ali@test.com","password":"$2y$10$k3yJiw8MuuLLBiprxG40BuXL4zlwQiklDCdIP9p6LCaBLpuwz\/pri","about":"Hello Admin","terms":"2","date":"2023-01-06 21:40:02","job":"Tester","company":"GHAN Software","website":"https:\/\/www.ghan.com\/","location":"NL","skills":["PHP","Java","Selenium",""],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":" 1","education":[{"id":117,"school":"Delft","degree":"Bachelor","study":"Computor Science","description":"Great University","fromdate":"2023-09-09","todate":"2026-06-06","date":"2023-01-07 00:07:05"}],"experience":[{"id":186,"job":"Junior SDET","company":"Ghan IT Com","location":"NL","description":"UI Auromation","fromdate":"2020-01-01","todate":"2023-01-06","date":"2023-01-06 22:06:22"},{"id":187,"job":"SDET ANd  Developer","company":"GHAN II IT BV","location":"UK","description":"Nice job","fromdate":"2020-02-02","todate":"2022-12-12","date":"2023-01-06 22:10:26"},{"id":188,"job":"Junior SDET","company":"Ghan IT Com","location":"NL","description":"UI Auromation","fromdate":"2020-01-01","todate":"2023-01-07","date":"2023-01-07 19:09:23"}]},{"id":111,"name":"Thomas Eduson","email":"thomas@test.com","password":"$2y$10$Z9DQwewjhTKomyoGqKtl\/eCLCP4RJ6ouG7NBsSjUgpCppgzIrlARW","about":"patch method tried","terms":"2","date":"2023-01-12 14:41:31","job":"Developer","company":"GHAN Software","website":"https:\/\/www.ghan.com\/","location":"Turkey","skills":["PHP","Java","Selenium","Cypress","SQL"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":" 1","education":[{"id":123,"school":"ODTU","degree":"Becholar","study":"computer science","description":"Good school","fromdate":"2018-12-12","todate":"2012-12-12","date":"2023-01-12 14:49:47"},{"id":124,"school":"Delft University","degree":"Master Degree","study":"Computer Science","description":"Great","fromdate":"2019-10-10","todate":"2022-05-08","date":"2023-01-12 14:50:56"}],"experience":[{"id":192,"job":"Junior Developer","company":"Kraft Techex","location":"TR","description":"Frontend developer","fromdate":"2019-12-12","todate":"2020-12-12","date":"2023-01-12 14:46:25"},{"id":193,"job":"Junior Developer","company":"Snool Software","location":"UK","description":"Frontend developer","fromdate":"2017-12-12","todate":"2019-12-12","date":"2023-01-12 14:47:25"}]},{"id":122,"name":"aaaFm","email":"asl\u0131@asl\u0131.com","password":"$2y$10$sT49fVo1mNr\/FttWlMgMJePS\/8RwAKSyyWt\/Sqbmmf5Pmff.s9s4a","about":"About","terms":"2","date":"2023-01-16 21:43:59","job":"Developer","company":"Mrcn Software","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":131,"name":"Eliza Gehart","email":"eliza@test.com","password":"$2y$10$nbAs8\/7hUht4c2svW1JfcuvgDgrVTMfRqi0XDEWkJgplmoC3HVMEK","about":"About Me","terms":"10","date":"2023-01-25 10:12:18","job":"SDET","company":"GHAN Software","website":"https:\/\/www.ghan.com\/","location":"UK","skills":["PHP","Java","API"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","education":[],"experience":[]},{"id":366,"name":"Ms. Justin Hand","email":"Allene.Mohr17@hotmail.com","password":"$2y$10$gS1uMJuO144HfaLjcifjC.YLEQ\/41ncLoV8sTPn\/iNSAvpD7sXeGy","about":"About","terms":"2","date":"2023-02-01 19:53:41","job":"Developer","company":"Rau - Dare","website":"https:\/\/hilbert.name","location":"{{randonCity}}","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":287,"job":"Junior Developer","company":"Braun, Kris and Brekke","location":"Makennamouth","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-01 21:48:13"},{"id":289,"job":"SDET","company":"Howell - O'Hara","location":"Turkey","description":"Description","fromdate":"2022-01-02","todate":"2023-02-02","date":"2023-02-01 21:48:16"},{"id":295,"job":"Junior Developer","company":"Daniel, Kris and Gorczany","location":"Port Ethylport","description":"Description","fromdate":"2010-01-01","todate":"2011-01-01","date":"2023-02-01 21:48:46"},{"id":298,"job":"Junior Developer","company":"Beier Inc","location":"South Eldred","description":"Description","fromdate":"2010-01-01","todate":"2011-01-01","date":"2023-02-01 21:50:17"},{"id":317,"job":"Junior Developer","company":"Koss and Sons","location":"Antelope","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-02 20:18:36"},{"id":319,"job":"Junior Developer","company":"O'Hara, Kessler and Koelpin","location":"Kittymouth","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-02 20:22:14"},{"id":336,"job":"Junior Developer","company":"Hickle, Herman and Pollich","location":"West Abagail","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-02 20:44:52"},{"id":395,"job":"Junior Developer","company":"Rippin, Hoppe and Huel","location":"Lake Zoey","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-02 20:50:11"},{"id":414,"job":"Junior Developer","company":"Langosh, Brakus and Goldner","location":"Lefflerfort","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-02 20:57:30"},{"id":421,"job":"Junior Developer","company":"Doyle and Sons","location":"Port Favian","description":"Description","fromdate":"2015-01-01","todate":"2022-01-01","date":"2023-02-02 20:58:50"}]},{"id":369,"name":"Tom Kassulke","email":"Jakob.White@gmail.com","password":"$2y$10$d0s5LmueD0TY6iWx0tr4\/OZ1UdFSNpk3zkIlLr5eE7D\/TW.8egDWK","about":"About","terms":"2","date":"2023-02-01 20:37:13","job":"Developer","company":"Feil - Beier","website":"https:\/\/terrell.info","location":"West Samsonstad","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":374,"name":"Mrs. Jo McKenzie","email":"Kyla18@hotmail.com","password":"$2y$10$IvLCvFk21uHLn4vjQfRil.GtBIQR96ukzB.WF.ohrRI9NwTeXstI.","about":"About","terms":"2","date":"2023-02-01 20:40:41","job":"Developer","company":"Will - Grady","website":"https:\/\/bianka.org","location":"Sawaynshire","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":429,"job":"Junior Developer","company":"Rutherford Group","location":"Port Rainahaven","description":"Description","fromdate":"2011-02-03","todate":"2012-05-06","date":"2023-02-02 21:00:38"}]},{"id":375,"name":"Jose Marquardt","email":"Marjory.Runolfsson80@gmail.com","password":"$2y$10$TDY.sFIKPdxDuSFEZq8tZee7zniFQ6gy.TWRn0Xqy0AWGOd2BL2Qu","about":"About","terms":"2","date":"2023-02-01 20:40:47","job":"Developer","company":"Thompson, Price and Hamill","website":"http:\/\/margret.net","location":"Olsonmouth","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":290,"job":"Junior Developer","company":"Mertz - Little","location":"South Mallory","description":"Description","fromdate":"2010-01-01","todate":"2011-01-01","date":"2023-02-01 21:48:17"},{"id":302,"job":"Junior Developer","company":"Fisher - Kuhic","location":"Lake Matildaburgh","description":"Description","fromdate":"2010-01-01","todate":"2011-01-01","date":"2023-02-01 22:09:55"},{"id":303,"job":"Senior QA","company":"Defacto","location":"Lake Leathaton","description":"Description","fromdate":"2012-02-02","todate":"2022-02-20","date":"2023-02-01 22:11:02"},{"id":331,"job":"Junior Developer","company":"Sipes and Sons","location":"Brodyside","description":"Description","fromdate":"2010-01-01","todate":"2011-01-01","date":"2023-02-02 20:42:09"},{"id":410,"job":"Junior Developer","company":"Gorczany, Hyatt and Schimmel","location":"East Websterfurt","description":"Description","fromdate":"2010-01-01","todate":"2011-01-01","date":"2023-02-02 20:56:20"}]},{"id":376,"name":"Marie Heidenreich","email":"Winona39@yahoo.com","password":"$2y$10$I3Z7GwngXiSvUYU.82fBsOaX8BApz0CQl3sIZ1dy2ZcbNHznKgo4G","about":"About","terms":"2","date":"2023-02-01 20:40:48","job":"Developer","company":"Mayer - Kuphal","website":"https:\/\/alberto.net","location":"Taylorsville","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":377,"name":"Drew Dicki","email":"Noelia.McDermott@gmail.com","password":"$2y$10$6EaUOIwQ3CSsSiHkYlRXwu8f7mw\/EiA.IPEwDKOoB46x5OytF0pTC","about":"About","terms":"2","date":"2023-02-01 20:40:49","job":"Developer","company":"McGlynn Group","website":"https:\/\/jordan.biz","location":"Zboncakstad","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":326,"job":"King SDET","company":"Kraft Ondricka - McKenzie","location":"Faybury","description":"Description","fromdate":"2000-11-11","todate":"2002-11-11","date":"2023-02-02 20:41:27"},{"id":332,"job":"King SDET","company":"Kraft Buckridge - Kuhic","location":"East Kaitlin","description":"Description","fromdate":"2000-11-11","todate":"2002-11-11","date":"2023-02-02 20:42:53"}]},{"id":378,"name":"Lora Schuster","email":"Lessie.Von@hotmail.com","password":"$2y$10$DUPSOvRAYlMhHNwjDxz91eziApmmq2hImAT5b\/LVSK2ultZBvKALy","about":"QA","terms":"3","date":"2023-02-01 20:40:53","job":"Senior SDET","company":"Zemlak LLC","website":"https:\/\/selina.name","location":"West Simborough","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":363,"job":"Senior QA","company":"Tromp Group","location":"Lake Chadd","description":"Specialist","fromdate":"2018-11-11","todate":"2020-11-11","date":"2023-02-02 20:45:28"}]},{"id":379,"name":"Christian Sanford DVM","email":"Lionel_Brakus86@hotmail.com","password":"$2y$10$n6Q5p3OQCsBlfHvD9Anm4eFJpv1mt.NxqgA2TDMPt\/.hOuwQRz0je","about":"About","terms":"2","date":"2023-02-01 20:40:56","job":"Developer","company":"Morissette Group","website":"https:\/\/columbus.info","location":"Valdosta","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":355,"job":"Developer \u0130n Test","company":"Lemke - Walter","location":"Port Jordiberg","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:45:24"},{"id":380,"job":"Developer \u0130n Test","company":"Becker - Howe","location":"South Kelton","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:47:12"},{"id":381,"job":"Developer \u0130n Test","company":"Armstrong, Rutherford and Kessler","location":"Lake Abelardo","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:48:50"},{"id":392,"job":"Developer \u0130n Test","company":"Will, Feil and Hermiston","location":"West Aronland","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:49:43"},{"id":394,"job":"Developer \u0130n Test","company":"Mitchell and Sons","location":"Zacharyberg","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:50:03"},{"id":399,"job":"Developer \u0130n Test","company":"Koch Inc","location":"Powlowskiberg","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:51:07"},{"id":400,"job":"Developer \u0130n Test","company":"Lowe, Kulas and O'Connell","location":"Cheektowaga","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:51:46"},{"id":411,"job":"Developer \u0130n Test","company":"Marquardt, Mills and Reichert","location":"Port Donavon","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:56:44"},{"id":412,"job":"Developer \u0130n Test","company":"Sauer - Barton","location":"Rodriguezchester","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:57:05"},{"id":415,"job":"Developer \u0130n Test","company":"Dicki, Gislason and Ruecker","location":"South Seanburgh","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:57:55"},{"id":419,"job":"Developer \u0130n Test","company":"McCullough - Fritsch","location":"Dietrichland","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:58:19"},{"id":424,"job":"Developer \u0130n Test","company":"Cassin - Klocko","location":"Tucson","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:59:05"},{"id":425,"job":"Developer \u0130n Test","company":"Pfeffer, Cummerata and Farrell","location":"Caterinachester","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 20:59:17"},{"id":427,"job":"Developer \u0130n Test","company":"Sanford, Hintz and Hermiston","location":"Ileneborough","description":"Description","fromdate":"2022-12-25","todate":"2023-02-02","date":"2023-02-02 21:00:00"}]},{"id":381,"name":"aFm03","email":"aliveli3@krafttechexlab.com","password":"$2y$10$9Q5A1u6cvAykShmZ1XGmR.Q8m2lnOhqNc8vPAsh86kf20CGDVIp5u","about":"About","terms":"2","date":"2023-02-01 20:41:08","job":"Developer","company":"Mrcn Software03","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":385,"name":"aJesus Lynch","email":"Reynold_Brown@hotmail.com","password":"$2y$10$OgL8dLthUEJozLuYAdV8Mel6jxVVKzKrp1zw7Oow\/9Q4Ez.Lsu0Lu","about":"About","terms":"2","date":"2023-02-01 20:43:39","job":"Developer","company":"Lehner - Beahan","website":"https:\/\/vidal.info","location":"Turkey","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":294,"job":"SDET","company":"Ms.Kraft ","location":"Port Elsetown","description":"Description","fromdate":"2011-08-08","todate":"2012-08-08","date":"2023-02-01 21:48:36"},{"id":325,"job":"Junior Developer","company":"Mr.Kraft","location":"Bristol","description":"Description","fromdate":"2011-08-08","todate":"2012-08-08","date":"2023-02-02 20:41:26"}]},{"id":389,"name":"Mr. Ronald Raynor","email":"Stone_Rutherford@gmail.com","password":"$2y$10$wVZW9iEhClJpqH7aWhpWRu1HIrSr.g\/.weCY3SY.sm8o.faVbCuJS","about":"About","terms":"2","date":"2023-02-01 20:59:03","job":"Developer","company":"Walter Inc","website":"https:\/\/alayna.biz","location":"Turkey","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[{"id":323,"school":"McGlynn and Sons school","degree":"phd","study":"ARCHIVE","description":"Description","fromdate":"2011-12-11","todate":"2011-10-23","date":"2023-02-02 22:02:38"}],"experience":[{"id":299,"job":"Junior Developer","company":"McGlynn - Runolfsdottir","location":"North Miraclemouth","description":"Description","fromdate":"2012-01-01","todate":"2012-01-11","date":"2023-02-01 21:50:29"},{"id":300,"job":"Junior Developer","company":"Huels, Thiel and Hoeger","location":"North Zane","description":"Description","fromdate":"2012-01-01","todate":"2012-01-11","date":"2023-02-01 21:54:12"},{"id":472,"job":"Junior Developer","company":"McGlynn, Beahan and Hettinger","location":"Rosenbaumshire","description":"Description","fromdate":"2012-01-01","todate":"2012-01-11","date":"2023-02-02 21:54:06"},{"id":491,"job":"Junior Developer","company":"Runolfsson, Runolfsson and Beier","location":"Vallejo","description":"Description","fromdate":"2012-01-01","todate":"2012-01-11","date":"2023-02-02 22:07:42"}]},{"id":393,"name":"Antonio Haley","email":"Ari77@hotmail.com","password":"$2y$10$JYpWmp9GVVhzD\/RkCl5NauC4kBCWW3HSJ01jstqhP0K.8DamQleQG","about":"About","terms":"2","date":"2023-02-02 11:56:40","job":"Developer","company":"Bergstrom Group","website":"https:\/\/odessa.com","location":"Alessandrafurt","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":310,"job":"SDET","company":"Mr.Kraft ","location":"North Zolaton","description":"Description","fromdate":"2011-08-08","todate":"2012-08-08","date":"2023-02-02 16:06:21"}]},{"id":398,"name":"Ashley Nolan","email":"Anne_Wehner11@hotmail.com","password":"$2y$10$zCi7dMLIX0NNLnbxW8kqFuOkcapMbBN0IbujdIdVeXflWZ4hJNtjq","about":"About","terms":"2","date":"2023-02-02 16:47:59","job":"Developer","company":"Murray Group","website":"http:\/\/manuel.info","location":"West Trevorton","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[{"id":329,"job":"SDET","company":"Ms.Kraftech ","location":"Draper","description":"Description","fromdate":"2011-08-08","todate":"2012-08-08","date":"2023-02-02 20:41:33"}]},{"id":400,"name":"Robin Lubowitz","email":"Mertie72@yahoo.com","password":"$2y$10$xgSQON2tiRQTqckkVoKdm.svSmeI01dBKdCqxEIJepLZAfExt4KO2","about":"About","terms":"2","date":"2023-02-02 17:12:44","job":"Developer","company":"Tremblay Group","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":430,"name":"Ashley Nolan","email":"Reyes29@hotmail.com","password":"$2y$10$7\/l.cn9x8YA.t8\/R5POayu7Zt.AZOP5Q00eQ1QC8xYi0Fv2FU8ZFy","about":"About","terms":"2","date":"2023-02-02 20:51:35","job":"Developer","company":"White Group","website":"http:\/\/elody.org","location":"New Lafayette","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":434,"name":"Mattie Gorczany","email":"Tremaine.Hane64@yahoo.com","password":"$2y$10$uvPOkSyKHSGqq\/IcVRNvH.jLNl6PseJSbZfmcVTSqwL6nb3PCPLWS","about":"About","terms":"2","date":"2023-02-02 20:52:12","job":"Developer","company":"Grant Inc","website":"https:\/\/ryann.info","location":"Roseville","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":449,"name":"Ashley Nolan","email":"Marilie_Roberts@gmail.com","password":"$2y$10$5Sx\/FCj2V2SsZNSX.BSxlOyrfqdACOFoWNnADyQjxUGWJBsJupZLq","about":"About","terms":"2","date":"2023-02-02 20:53:08","job":"Developer","company":"Dickinson - Nader","website":"https:\/\/terrance.net","location":"Lake Reinaberg","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]},{"id":452,"name":"Ashley Nolan","email":"Jennifer.Lehner20@yahoo.com","password":"$2y$10$OABXG62eTHQeWJsaHTl2a.Mm1FKXHWGzMj1TFABCEDVzja4OVb8U.","about":"About","terms":"2","date":"2023-02-02 20:53:13","job":"Developer","company":"Waelchi LLC","website":"http:\/\/martine.name","location":"Carleestad","skills":["PHP","Java"],"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0 or 1","education":[],"experience":[]}]
+
+23:25:43.110 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] MercanS
+23:25:43.116 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] [
+  "PHP",
+  "Java"
+]
+
+23:25:43.134 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 9: classpath:features/parametersTest.feature
+23:25:43.184 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 291.85
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE2NzU5NDQ2MjcsImVuZHMiOjE2NzY1NDk0Mjd9.OwYdMOAWCoMgfGaMEkRJfeueAWVQktf68P0Q2X3cExEhK_TnFBFaXRG7nlN51yZt-aDFgBZtpxhrVzqKS_rdsA"}
+
+23:25:43.185 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE2NzU5NDQ2MjcsImVuZHMiOjE2NzY1NDk0Mjd9.OwYdMOAWCoMgfGaMEkRJfeueAWVQktf68P0Q2X3cExEhK_TnFBFaXRG7nlN51yZt-aDFgBZtpxhrVzqKS_rdsA"
+}
+
+23:25:43.373 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1129.83
+2 < 200
+2 < Access-Control-Allow-Origin: *
+2 < Connection: Upgrade, Keep-Alive
+2 < Content-Type: application/json; charset=UTF-8
+2 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+2 < Keep-Alive: timeout=2, max=100
+2 < Server: Apache/2
+2 < Upgrade: h2,h2c
+2 < Vary: Accept-Encoding,User-Agent
+[{"id":623,"job":"Senior QA","company":"Kraftech","location":"TR","description":"Great job","fromdate":"2012-12-12","todate":"2016-12-12","date":"2023-02-11 23:26:21"}]
+
+23:25:43.375 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] [
+  {
+    "date": "2023-02-11 23:26:21",
+    "todate": "2016-12-12",
+    "description": "Great job",
+    "company": "Kraftech",
+    "location": "TR",
+    "id": 623,
+    "job": "Senior QA",
+    "fromdate": "2012-12-12"
+  }
+]
+
+23:25:43.382 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 9: classpath:features/apiTestWithToken.feature
+23:25:43.390 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "password": "Test123456!",
+  "terms": "5",
+  "name": "Vince",
+  "about": "Good job",
+  "email": "Vince@test.com"
+}
+
+23:25:43.396 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/Register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 97
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_352)
+{"password":"Test123456!","terms":"5","name":"Vince","about":"Good job","email":"Vince@test.com"}
+
+23:25:43.605 [ForkJoinPool-1-worker-4] DEBUG com.intuit.karate - response time in milliseconds: 208.07
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:22 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":980,"name":"Vince","email":"Vince@test.com","password":"$2y$10$HGx1iHni1t.a6o167C9pSuplnYBat.NdeifnUf8geTkuWlGNikVVy","about":"Good job","terms":"5","job":null,"company":null,"website":null,"location":null,"skills":null,"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTgwIiwic3RhcnQiOjE2NzYxNDcxODIsImVuZHMiOjE2NzY3NTE5ODJ9.RBXM8ke0EnvukcqZHwSQkDA11EHYMbetZAvYOG2lNWSzgyMcs-z_J1Fd73s7S70Ae8GUlDzZ7JOZH6_Y_ZJJJg"}
+
+23:25:43.605 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] {
+  "youtube": null,
+  "website": null,
+  "github": null,
+  "facebook": null,
+  "about": "Good job",
+  "admin": "0",
+  "linkedin": null,
+  "instagram": null,
+  "avatar": "1",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTgwIiwic3RhcnQiOjE2NzYxNDcxODIsImVuZHMiOjE2NzY3NTE5ODJ9.RBXM8ke0EnvukcqZHwSQkDA11EHYMbetZAvYOG2lNWSzgyMcs-z_J1Fd73s7S70Ae8GUlDzZ7JOZH6_Y_ZJJJg",
+  "skills": null,
+  "password": "$2y$10$HGx1iHni1t.a6o167C9pSuplnYBat.NdeifnUf8geTkuWlGNikVVy",
+  "twitter": null,
+  "terms": "5",
+  "name": "Vince",
+  "company": null,
+  "location": null,
+  "id": 980,
+  "job": null,
+  "email": "Vince@test.com"
+}
+
+23:25:43.611 [ForkJoinPool-1-worker-4] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiOTgwIiwic3RhcnQiOjE2NzYxNDcxODIsImVuZHMiOjE2NzY3NTE5ODJ9.RBXM8ke0EnvukcqZHwSQkDA11EHYMbetZAvYOG2lNWSzgyMcs-z_J1Fd73s7S70Ae8GUlDzZ7JOZH6_Y_ZJJJg
+23:25:43.616 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 8 of 9: classpath:features/userWithJava.feature
+23:25:43.702 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 1208.24
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Sat, 11 Feb 2023 20:26:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE2NzU5NDQ1ODQsImVuZHMiOjE2NzY1NDkzODR9.Lysf5Kd3OBxz0i4zNfVgqSyQiNseOMA2Y1_CKUi8uy_8YKyqebaPaweBP3jNfqT029vcqWUdAFDpIUgvXM9Bgg"}
+
+23:25:43.703 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE2NzU5NDQ1ODQsImVuZHMiOjE2NzY1NDkzODR9.Lysf5Kd3OBxz0i4zNfVgqSyQiNseOMA2Y1_CKUi8uy_8YKyqebaPaweBP3jNfqT029vcqWUdAFDpIUgvXM9Bgg"
+}
+
+23:25:43.714 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 9: classpath:features/dataDrivenTest.feature
