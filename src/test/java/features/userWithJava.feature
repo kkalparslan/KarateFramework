@@ -17,7 +17,7 @@
       Then status 200
       * print response
       # verify name
-    * match response.name == NewUser.name
+      * match response.name == NewUser.name
       * print response.token
       * def token = response.token
 

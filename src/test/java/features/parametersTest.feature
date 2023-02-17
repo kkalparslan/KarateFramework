@@ -127,7 +127,7 @@
         * status 200
       #  * print response
 
-    * match header Content-Type == 'application/json; charset=UTF-8'
+        * match header Content-Type == 'application/json; charset=UTF-8'
         * print response[0].name
         * print response[0].skills
 

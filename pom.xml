@@ -30,6 +30,8 @@
             <artifactId>karate-junit4</artifactId>
             <version>0.9.5</version>
             <scope>test</scope>
+            <!-- ÖNEMLİ BİLGİ/IMPORTANT INFORMATION scope test yazarsak bu dependency sadece test package
+             ın altında kullanabiliyoruz scope u kaldırırsak main package altından da kullanabiliyoruz -->
         </dependency>
 
         <dependency>

@@ -5,8 +5,9 @@
       Given print "Hello Karate World"
       When print 'another file print'
       * print 'my name is'+' Alp'
-
       # feature da + yerine virgül koyunca space i otomatik veriyor.
+      # Then, whwn vb lerin yerine * koyarak da çalıştırabiliriz
+      Then print '.......'
 
       Scenario: Variables
         * def name = 'Robert'
@@ -39,6 +40,7 @@
               {"name": "Alp",
              "role": "admin",
              "age": 30},
+
              {"name": "Kemal",
              "role": "admin",
              "age": 40}

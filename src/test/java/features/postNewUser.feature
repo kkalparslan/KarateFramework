@@ -23,7 +23,7 @@
     #  Then status 200  status code paralel testte hata veriyor. tek test olarak denenmeli kontrol için..
       * print response
 
-    #  * match response.name == 'Karate9 Alp' burada da yeni create olduğundan aşağıdaki match i her
+      #* match response.name == 'Karate9 Alp' burada da yeni create olduğundan aşağıdaki match i her
         #  seferinde ona göre ayarlamak gerekiyor
       * print response.token
       * def token = response.token

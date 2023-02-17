@@ -25,6 +25,8 @@
         * match user.terms == '#number'
         * match user.position == '#boolean'
         * match user.country == '#notpresent'
+        # Fuzzy matching lerde == value lar '#string' olabileceği gibi yukarıdaki değer ile de assert edilebilir.
+
 
         Scenario: Contains matching
           * def users =
