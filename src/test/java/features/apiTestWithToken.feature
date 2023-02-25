@@ -27,7 +27,7 @@ Feature: API Tests
       When method POST
       Then status 200
       * print response
-      
+
       Given url 'https://www.krafttechexlab.com/sw/api/v1/experience/all'
       And header Authorization = userToken
       And header Accept = 'application/json; charset=utf-8'

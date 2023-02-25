@@ -117,7 +117,7 @@
       * print response
       * match response == expected
 
-      Scenario: Query Parama
+      Scenario: Query Params
         Given url baseUrl
         When path 'alluser'
         * param skills = 'PHP'
