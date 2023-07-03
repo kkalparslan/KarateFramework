@@ -1,0 +1,20 @@
+<testsuite failures="0" name="features/apiTestWithToken.feature" skipped="0" tests="1" time="1.934683">
+  <testcase classname="features.apiTestWithToken" name="add experience" time="1.934683">
+    <system-out>* def AuthFeature = call read('classpath:features/postNewUser.feature') ... passed
+* def userToken = AuthFeature.token ....................................... passed
+* print "Token comes from Background", userToken .......................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/experience/add' ....... passed
+And header Authorization = userToken ...................................... passed
+And header Accept = 'application/json; charset=utf-8' ..................... passed
+* request ................................................................. passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/experience/all' ....... passed
+And header Authorization = userToken ...................................... passed
+And header Accept = 'application/json; charset=utf-8' ..................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+</testsuite>

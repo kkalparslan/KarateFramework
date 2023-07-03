@@ -1,0 +1,36 @@
+<testsuite failures="0" name="features/parametersTest.feature" skipped="0" tests="2" time="0.409266">
+  <testcase classname="features.parametersTest" name="path params" time="0.15774">
+    <system-out>* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers' ....... passed
+* def expected = .......................................................... passed
+Given url baseUrl + '/getbyid' ............................................ passed
+And path '1' .............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* match response == expected .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="features.parametersTest" name="Query Params" time="0.251526">
+    <system-out>* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers' ....... passed
+* def expected = .......................................................... passed
+Given url baseUrl + '/getbyid' ............................................ passed
+And path '1' .............................................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* match response == expected .............................................. passed
+* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers' ....... passed
+Given url baseUrl ......................................................... passed
+When path 'alluser' ....................................................... passed
+* param skills = 'PHP' .................................................... passed
+* param pagesize = 25 ..................................................... passed
+* param page = 1 .......................................................... passed
+* method GET .............................................................. passed
+* status 200 .............................................................. passed
+* match header Content-Type == 'application/json; charset=UTF-8' .......... passed
+* print response[0].name .................................................. passed
+* print response[0].skills ................................................ passed
+Then match response[0].skills == ["PHP", "Java"] .......................... passed
+* match response[0].name == 'MercanS' ..................................... passed
+Then match each response[*].id == '#number' ............................... passed</system-out>
+  </testcase>
+</testsuite>

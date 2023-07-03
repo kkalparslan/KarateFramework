@@ -1,0 +1,19 @@
+<testsuite failures="0" name="features/userWithJava.feature" skipped="0" tests="1" time="0.664052">
+  <testcase classname="features.userWithJava" name="Create new faker user" time="0.664052">
+    <system-out>* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers' ....... passed
+* def userGenerator = Java.type('utilities.NewUserDataGenerator') ......... passed
+* def NewUser = userGenerator.userDataGenerator() ......................... passed
+* print NewUser ........................................................... passed
+Given url baseUrl ......................................................... passed
+* path 'Register' ......................................................... passed
+And header Accept = 'application/json; charset=UTF-8' ..................... passed
+And header Content-Type = 'application/json; charset=UTF-8' ............... passed
+And request NewUser ....................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... passed
+* print response .......................................................... passed
+* match response.name == NewUser.name ..................................... passed
+* print response.token .................................................... passed
+* def token = response.token .............................................. passed</system-out>
+  </testcase>
+</testsuite>

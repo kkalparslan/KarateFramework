@@ -1,0 +1,32 @@
+<testsuite failures="0" name="features/assertions.feature" skipped="0" tests="3" time="0.042594">
+  <testcase classname="features.assertions" name="matching" time="0.013398">
+    <system-out>* def name = 'Robert Albert' .............................................. passed
+* match name == 'Robert Albert' ........................................... passed
+* match name != 'Hans' .................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.assertions" name="Fuzzy Matching" time="0.020764">
+    <system-out>* def name = 'Robert Albert' .............................................. passed
+* match name == 'Robert Albert' ........................................... passed
+* match name != 'Hans' .................................................... passed
+* def user = .............................................................. passed
+* match user.name == '#string' ............................................ passed
+* match user.terms == '#number' ........................................... passed
+* match user.position == '#boolean' ....................................... passed
+* match user.country == '#notpresent' ..................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.assertions" name="Contains matching" time="0.008433">
+    <system-out>* def name = 'Robert Albert' .............................................. passed
+* match name == 'Robert Albert' ........................................... passed
+* match name != 'Hans' .................................................... passed
+* def user = .............................................................. passed
+* match user.name == '#string' ............................................ passed
+* match user.terms == '#number' ........................................... passed
+* match user.position == '#boolean' ....................................... passed
+* match user.country == '#notpresent' ..................................... passed
+* def users = ............................................................. passed
+* def length = users.length ............................................... passed
+* print length ............................................................ passed
+* print users ............................................................. passed
+* match users contains {"name": "Kemal", "role": "admin", "age": 40} ...... passed</system-out>
+  </testcase>
+</testsuite>

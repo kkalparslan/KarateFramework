@@ -12,8 +12,8 @@
       And request
       """
       {
-  "name": "Karate09 Alp",
-  "email": "KAlp09@krafttechexlab.com",
+  "name": "Karate091 Alp",
+  "email": "KAlp091@krafttechexlab.com",
   "password": "123467",
   "about": "About Me",
   "terms": "10"
