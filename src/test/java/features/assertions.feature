@@ -1,5 +1,4 @@
-
-  Feature: Using match keyword
+Feature: Using match keyword
 
     @assert
     Scenario: matching

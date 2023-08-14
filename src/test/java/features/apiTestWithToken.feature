@@ -1,4 +1,3 @@
-
 Feature: API Tests
 
   Background:

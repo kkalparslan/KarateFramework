@@ -1,5 +1,4 @@
-
-  Feature: Parameters
+Feature: Parameters
 
     Background:
     * def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers'

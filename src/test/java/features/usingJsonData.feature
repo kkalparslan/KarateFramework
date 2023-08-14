@@ -1,4 +1,3 @@
-
 Feature: get user by id
 
   Scenario: match response with expected
