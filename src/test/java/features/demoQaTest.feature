@@ -1,5 +1,4 @@
-
-  Feature: Demoqa API Tests
+Feature: Demoqa API Tests
     
     Scenario: Get all books List
       Given url "https://demoqa.com/BookStore/v1/Books"

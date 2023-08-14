@@ -1,5 +1,4 @@
-
-  Feature: Create a new user
+Feature: Create a new user
 
     Background:
       * def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers'
