@@ -45,7 +45,7 @@
   .embed img { width: 100%; }
 </style>
 
-<title>features.assertions</title>
+<title>src.test.java.features.userWithJava</title>
 <script>window.onload = function() {
   var possibleModes = ['failed', 'skipped', 'passed'];
   var tests = {};
@@ -168,20 +168,121 @@
 </img><div>
 <div class="scenario">
 <div class="scenario-heading">
-<span class="scenario-keyword">Scenario: [1:5]</span><span class="scenario-name">matching</span>
+<span class="scenario-keyword">Scenario: [1:4]</span><span class="scenario-name">Create new faker user</span>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* def name = 'Robert Albert'</div>
-<div class="time-cell passed">0.003735</div>
+<div class="step-cell passed">* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers'</div>
+<div class="time-cell passed">0.003124</div>
 </div>
-<div class="preformatted">23:29:14.653 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">23:31:22.153 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
-<div class="step-cell passed">* match name == 'Robert Albert'</div>
-<div class="time-cell passed">0.00136</div>
+<div class="step-cell passed">* def userGenerator = Java.type('utilities.NewUserDataGenerator')</div>
+<div class="time-cell passed">0.006706</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* match name != 'Hans'</div>
-<div class="time-cell passed">0.002158</div>
+<div class="step-cell passed">* def NewUser = userGenerator.userDataGenerator()</div>
+<div class="time-cell passed">0.152669</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* print NewUser</div>
+<div class="time-cell passed">0.060067</div>
+</div>
+<div class="preformatted">23:31:22.389 [print] {
+  "password": "Test123456!",
+  "terms": "5",
+  "name": "Roni",
+  "about": "Good job",
+  "email": "Roni@test.com"
+}</div>
+<div class="step-row">
+<div class="step-cell passed">Given url baseUrl</div>
+<div class="time-cell passed">0.000043</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* path 'Register'</div>
+<div class="time-cell passed">0.002389</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And header Accept = 'application/json; charset=UTF-8'</div>
+<div class="time-cell passed">0.002051</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And header Content-Type = 'application/json; charset=UTF-8'</div>
+<div class="time-cell passed">0.000102</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And request NewUser</div>
+<div class="time-cell passed">0.000017</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">When method POST</div>
+<div class="time-cell passed">0.829244</div>
+</div>
+<div class="preformatted">23:31:22.778 request:
+1 &gt; POST https://www.krafttechexlab.com/sw/api/v1/allusers/Register
+1 &gt; Accept: application/json; charset=UTF-8
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 95
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: www.krafttechexlab.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+{"password":"Test123456!","terms":"5","name":"Roni","about":"Good job","email":"Roni@test.com"}
+
+23:31:23.217 response time in milliseconds: 433.71
+1 &lt; 200
+1 &lt; Access-Control-Allow-Methods: POST
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: Upgrade, Keep-Alive
+1 &lt; Content-Type: application/json; charset=UTF-8
+1 &lt; Date: Mon, 14 Aug 2023 20:34:49 GMT
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Server: Apache/2
+1 &lt; Upgrade: h2,h2c
+1 &lt; Vary: Accept-Encoding,User-Agent
+{"id":1937,"name":"Roni","email":"Roni@test.com","password":"$2y$10$Zj0k9XwDd6vs04MVAwTroOCsrwGzIC3iGf88FLq0TRpuwRmaWRLbq","about":"Good job","terms":"5","job":null,"company":null,"website":null,"location":null,"skills":null,"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiMTkzNyIsInN0YXJ0IjoxNjkyMDQ1Mjg5LCJlbmRzIjoxNjkyNjUwMDg5fQ.92XrrPJ9ko3W56k_feVh9zY7vLG3Ai1SwX6lRFqAgeXyYYiBH0YMr5jDx2COzT9LjjEqz5fuoohPD6yHphiioA"}</div>
+<div class="step-row">
+<div class="step-cell passed">Then status 200</div>
+<div class="time-cell passed">0.000027</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* print response</div>
+<div class="time-cell passed">0.000717</div>
+</div>
+<div class="preformatted">23:31:23.225 [print] {
+  "youtube": null,
+  "website": null,
+  "github": null,
+  "facebook": null,
+  "about": "Good job",
+  "admin": "0",
+  "linkedin": null,
+  "instagram": null,
+  "avatar": "1",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiMTkzNyIsInN0YXJ0IjoxNjkyMDQ1Mjg5LCJlbmRzIjoxNjkyNjUwMDg5fQ.92XrrPJ9ko3W56k_feVh9zY7vLG3Ai1SwX6lRFqAgeXyYYiBH0YMr5jDx2COzT9LjjEqz5fuoohPD6yHphiioA",
+  "skills": null,
+  "password": "$2y$10$Zj0k9XwDd6vs04MVAwTroOCsrwGzIC3iGf88FLq0TRpuwRmaWRLbq",
+  "twitter": null,
+  "terms": "5",
+  "name": "Roni",
+  "company": null,
+  "location": null,
+  "id": 1937,
+  "job": null,
+  "email": "Roni@test.com"
+}</div>
+<div class="step-row">
+<div class="step-cell passed">* match response.name == NewUser.name</div>
+<div class="time-cell passed">0.011965</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">* print response.token</div>
+<div class="time-cell passed">0.004471</div>
+</div>
+<div class="preformatted">23:31:23.241 [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiMTkzNyIsInN0YXJ0IjoxNjkyMDQ1Mjg5LCJlbmRzIjoxNjkyNjUwMDg5fQ.92XrrPJ9ko3W56k_feVh9zY7vLG3Ai1SwX6lRFqAgeXyYYiBH0YMr5jDx2COzT9LjjEqz5fuoohPD6yHphiioA</div>
+<div class="step-row">
+<div class="step-cell passed">* def token = response.token</div>
+<div class="time-cell passed">0.000311</div>
 </div>
 </div>
 </div>

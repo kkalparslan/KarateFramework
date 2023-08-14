@@ -45,7 +45,7 @@
   .embed img { width: 100%; }
 </style>
 
-<title>features.assertions</title>
+<title>src.test.java.features.postNewUser</title>
 <script>window.onload = function() {
   var possibleModes = ['failed', 'skipped', 'passed'];
   var tests = {};
@@ -168,20 +168,82 @@
 </img><div>
 <div class="scenario">
 <div class="scenario-heading">
-<span class="scenario-keyword">Scenario: [1:5]</span><span class="scenario-name">matching</span>
+<span class="scenario-keyword">Scenario: [1:7]</span><span class="scenario-name">Create a new user</span>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* def name = 'Robert Albert'</div>
-<div class="time-cell passed">0.003735</div>
+<div class="step-cell passed">* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers'</div>
+<div class="time-cell passed">0.003372</div>
 </div>
-<div class="preformatted">23:29:14.653 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">23:31:53.231 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
-<div class="step-cell passed">* match name == 'Robert Albert'</div>
-<div class="time-cell passed">0.00136</div>
+<div class="step-cell passed">Given url baseUrl</div>
+<div class="time-cell passed">0.000335</div>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* match name != 'Hans'</div>
-<div class="time-cell passed">0.002158</div>
+<div class="step-cell passed">* path 'register'</div>
+<div class="time-cell passed">0.001683</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And header Accept = 'application/json; charset=UTF-8'</div>
+<div class="time-cell passed">0.001603</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And header Content-Type = 'application/json; charset=UTF-8'</div>
+<div class="time-cell passed">0.000125</div>
+</div>
+<div class="step-row">
+<div class="step-cell passed">And request</div>
+<div class="time-cell passed">0.043409</div>
+</div>
+<div class="preformatted">{
+  "name": "Karate091 Alp",
+  "email": "KAlp091@krafttechexlab.com",
+  "password": "123467",
+  "about": "About Me",
+  "terms": "10"
+}</div>
+<div class="step-row">
+<div class="step-cell passed">When method POST</div>
+<div class="time-cell passed">0.653257</div>
+</div>
+<div class="preformatted">23:31:53.676 request:
+1 &gt; POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 &gt; Accept: application/json; charset=UTF-8
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 113
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: www.krafttechexlab.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+{"name":"Karate091 Alp","email":"KAlp091@krafttechexlab.com","password":"123467","about":"About Me","terms":"10"}
+
+23:31:53.950 response time in milliseconds: 271.60
+1 &lt; 404
+1 &lt; Access-Control-Allow-Methods: POST
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Connection: Upgrade, Keep-Alive
+1 &lt; Content-Type: application/json; charset=UTF-8
+1 &lt; Date: Mon, 14 Aug 2023 20:35:20 GMT
+1 &lt; Keep-Alive: timeout=2, max=100
+1 &lt; Server: Apache/2
+1 &lt; Upgrade: h2,h2c
+1 &lt; Vary: Accept-Encoding,User-Agent
+{"message":"This Email Is Used..."}</div>
+<div class="step-row">
+<div class="step-cell passed">* print response</div>
+<div class="time-cell passed">0.000535</div>
+</div>
+<div class="preformatted">23:31:53.952 [print] {
+  "message": "This Email Is Used..."
+}</div>
+<div class="step-row">
+<div class="step-cell passed">* print response.token</div>
+<div class="time-cell passed">0.010748</div>
+</div>
+<div class="preformatted">23:31:53.962 [print]</div>
+<div class="step-row">
+<div class="step-cell passed">* def token = response.token</div>
+<div class="time-cell passed">0.000315</div>
 </div>
 </div>
 </div>

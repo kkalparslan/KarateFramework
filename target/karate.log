@@ -2813,3 +2813,224 @@ email=user66%40test.com&password=Test123456
 
 15:04:01.887 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 9: classpath:features/dataDrivenTest.feature
 15:04:42.394 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:29:14.649 [main] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:30:53.701 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:30:53.705 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^match response with expected$
+23:30:53.813 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:30:54.309 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://www.krafttechexlab.com/sw/api/v1/allusers/getbyid/1
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+
+23:30:54.753 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 439.90
+1 < 200
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Mon, 14 Aug 2023 20:34:21 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+[{"id":1,"name":"MercanS","email":"afmercan@gmail.com","password":"$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3\/9QIFQ.dSVTGIetNUbNQx2gMFEAK","about":"About","terms":"16","date":"2022-09-12 20:50:38","job":"Manual Tester","company":"Mrcn Software","website":"https:\/\/www.krafttechexlab.com\/","location":"Turkey","skills":["PHP","Java"],"github":"aFmGit","twitter":"aFmTwitter","facebook":"aFmFace","youtube":"aFmYoutube","linkedin":"aFmLinkedin","instagram":"aFmInstagram","avatar":"1","admin":"1","education":[{"id":44,"school":"School or Bootcamp","degree":"Degree","study":"Study","description":"Program Description","fromdate":"2000-12-02","todate":"2004-12-01","date":"2022-09-25 01:03:22"},{"id":120,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:01:24"},{"id":121,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:06"},{"id":122,"school":"School","degree":"Degree","study":"Study","description":"Description","fromdate":"2020-05-05","todate":"2020-05-05","date":"2023-01-08 23:02:51"}],"experience":[{"id":38,"job":"Junior Developer1","company":"Kraft Techex1","location":"USA2","description":"Description2","fromdate":"2019-01-01","todate":"2022-10-09","date":"2022-09-05 18:10:26"},{"id":56,"job":"Junior Developer1","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2020-01-10","todate":"2022-10-09","date":"2022-10-09 17:52:44"},{"id":189,"job":"Junior Developer","company":"Kraft Techex","location":"USA","description":"Description","fromdate":"2000-01-01","todate":"2023-01-21","date":"2023-01-08 17:46:07"}]}]
+
+23:30:54.802 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] [
+  {
+    "date": "2022-09-12 20:50:38",
+    "youtube": "aFmYoutube",
+    "website": "https://www.krafttechexlab.com/",
+    "github": "aFmGit",
+    "education": [
+      {
+        "date": "2022-09-25 01:03:22",
+        "study": "Study",
+        "todate": "2004-12-01",
+        "school": "School or Bootcamp",
+        "degree": "Degree",
+        "description": "Program Description",
+        "id": 44,
+        "fromdate": "2000-12-02"
+      },
+      {
+        "date": "2023-01-08 23:01:24",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 120,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:06",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 121,
+        "fromdate": "2020-05-05"
+      },
+      {
+        "date": "2023-01-08 23:02:51",
+        "study": "Study",
+        "todate": "2020-05-05",
+        "school": "School",
+        "degree": "Degree",
+        "description": "Description",
+        "id": 122,
+        "fromdate": "2020-05-05"
+      }
+    ],
+    "facebook": "aFmFace",
+    "about": "About",
+    "admin": "1",
+    "linkedin": "aFmLinkedin",
+    "instagram": "aFmInstagram",
+    "avatar": "1",
+    "experience": [
+      {
+        "date": "2022-09-05 18:10:26",
+        "todate": "2022-10-09",
+        "description": "Description2",
+        "company": "Kraft Techex1",
+        "location": "USA2",
+        "id": 38,
+        "job": "Junior Developer1",
+        "fromdate": "2019-01-01"
+      },
+      {
+        "date": "2022-10-09 17:52:44",
+        "todate": "2022-10-09",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 56,
+        "job": "Junior Developer1",
+        "fromdate": "2020-01-10"
+      },
+      {
+        "date": "2023-01-08 17:46:07",
+        "todate": "2023-01-21",
+        "description": "Description",
+        "company": "Kraft Techex",
+        "location": "USA",
+        "id": 189,
+        "job": "Junior Developer",
+        "fromdate": "2000-01-01"
+      }
+    ],
+    "skills": [
+      "PHP",
+      "Java"
+    ],
+    "password": "$2y$10$VOqhVBmA5aPuEyd1z7YID.SV3/9QIFQ.dSVTGIetNUbNQx2gMFEAK",
+    "twitter": "aFmTwitter",
+    "terms": "16",
+    "name": "MercanS",
+    "company": "Mrcn Software",
+    "location": "Turkey",
+    "id": 1,
+    "job": "Manual Tester",
+    "email": "afmercan@gmail.com"
+  }
+]
+
+23:30:54.884 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/usingJsonData.feature
+23:31:22.028 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:31:22.031 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^Create new faker user$
+23:31:22.153 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:31:22.389 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "password": "Test123456!",
+  "terms": "5",
+  "name": "Roni",
+  "about": "Good job",
+  "email": "Roni@test.com"
+}
+
+23:31:22.778 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/Register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 95
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+{"password":"Test123456!","terms":"5","name":"Roni","about":"Good job","email":"Roni@test.com"}
+
+23:31:23.216 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 433.71
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Mon, 14 Aug 2023 20:34:49 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"id":1937,"name":"Roni","email":"Roni@test.com","password":"$2y$10$Zj0k9XwDd6vs04MVAwTroOCsrwGzIC3iGf88FLq0TRpuwRmaWRLbq","about":"Good job","terms":"5","job":null,"company":null,"website":null,"location":null,"skills":null,"github":null,"twitter":null,"facebook":null,"youtube":null,"linkedin":null,"instagram":null,"avatar":"1","admin":"0","token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiMTkzNyIsInN0YXJ0IjoxNjkyMDQ1Mjg5LCJlbmRzIjoxNjkyNjUwMDg5fQ.92XrrPJ9ko3W56k_feVh9zY7vLG3Ai1SwX6lRFqAgeXyYYiBH0YMr5jDx2COzT9LjjEqz5fuoohPD6yHphiioA"}
+
+23:31:23.225 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "youtube": null,
+  "website": null,
+  "github": null,
+  "facebook": null,
+  "about": "Good job",
+  "admin": "0",
+  "linkedin": null,
+  "instagram": null,
+  "avatar": "1",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiMTkzNyIsInN0YXJ0IjoxNjkyMDQ1Mjg5LCJlbmRzIjoxNjkyNjUwMDg5fQ.92XrrPJ9ko3W56k_feVh9zY7vLG3Ai1SwX6lRFqAgeXyYYiBH0YMr5jDx2COzT9LjjEqz5fuoohPD6yHphiioA",
+  "skills": null,
+  "password": "$2y$10$Zj0k9XwDd6vs04MVAwTroOCsrwGzIC3iGf88FLq0TRpuwRmaWRLbq",
+  "twitter": null,
+  "terms": "5",
+  "name": "Roni",
+  "company": null,
+  "location": null,
+  "id": 1937,
+  "job": null,
+  "email": "Roni@test.com"
+}
+
+23:31:23.241 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoiMTkzNyIsInN0YXJ0IjoxNjkyMDQ1Mjg5LCJlbmRzIjoxNjkyNjUwMDg5fQ.92XrrPJ9ko3W56k_feVh9zY7vLG3Ai1SwX6lRFqAgeXyYYiBH0YMr5jDx2COzT9LjjEqz5fuoohPD6yHphiioA
+23:31:23.316 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/userWithJava.feature
+23:31:53.107 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:31:53.111 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 7 - ^Create a new user$
+23:31:53.231 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+23:31:53.675 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
+1 > Accept: application/json; charset=UTF-8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 113
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+{"name":"Karate091 Alp","email":"KAlp091@krafttechexlab.com","password":"123467","about":"About Me","terms":"10"}
+
+23:31:53.949 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 271.60
+1 < 404
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Mon, 14 Aug 2023 20:35:20 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"message":"This Email Is Used..."}
+
+23:31:53.952 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "message": "This Email Is Used..."
+}
+
+23:31:53.962 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 
+23:31:54.048 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/postNewUser.feature
