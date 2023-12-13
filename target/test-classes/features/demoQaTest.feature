@@ -1,5 +1,4 @@
-
-  Feature: Demoqa API Tests
+Feature: Demoqa API Tests
     
     Scenario: Get all books List
       Given url "https://demoqa.com/BookStore/v1/Books"
@@ -10,7 +9,8 @@
       * match header X-Powered-By == "Express"
       * match header Date == '#present'
 
-      # match methodlarda request body nin baş harflerinin büyük olması gerekiyor
+      # ÖNEMLİ: match methodlarda request body nin baş harflerinin büyük olması gerekiyor.
+      # ----------------------------------------------------------------------------------
 
     Scenario: Json body verification
       Given url "https://demoqa.com/BookStore/v1/Books"

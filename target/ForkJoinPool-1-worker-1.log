@@ -1,8 +1,10 @@
-23:31:53.231 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-23:31:53.676 request:
-1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/register
-1 > Accept: application/json; charset=UTF-8
-1 > Accept-Encoding: gzip,deflate
+22:01:18.658 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:01:18.695 [print] my name is Robert
+22:01:18.711 [print] Robert is 19 year old
+22:01:18.718 [print] 10
+me is Alp
+21:59:47.051 [print] .......
+Encoding: gzip,deflate
 1 > Connection: Keep-Alive
 1 > Content-Length: 113
 1 > Content-Type: application/json; charset=UTF-8

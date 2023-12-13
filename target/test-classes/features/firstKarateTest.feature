@@ -1,12 +1,11 @@
-
-  Feature: Welcome to Karate
+Feature: Welcome to Karate
 
     Scenario: How to print
       Given print "Hello Karate World"
       When print 'another file print'
       * print 'my name is'+' Alp'
       # feature da + yerine virgül koyunca space i otomatik veriyor.
-      # Then, whwn vb lerin yerine * koyarak da çalıştırabiliriz
+      # Then, when vb lerin yerine * koyarak da çalıştırabiliriz
       Then print '.......'
 
       Scenario: Variables

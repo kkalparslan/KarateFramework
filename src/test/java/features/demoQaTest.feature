@@ -9,7 +9,8 @@ Feature: Demoqa API Tests
       * match header X-Powered-By == "Express"
       * match header Date == '#present'
 
-      # match methodlarda request body nin baş harflerinin büyük olması gerekiyor
+      # ÖNEMLİ: match methodlarda request body nin baş harflerinin büyük olması gerekiyor.
+      # ----------------------------------------------------------------------------------
 
     Scenario: Json body verification
       Given url "https://demoqa.com/BookStore/v1/Books"

@@ -1,5 +1,4 @@
-
-  Feature: Karate Java Integration
+Feature: Karate Java Integration
 
     Scenario: Create new faker user
       * def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers'
