@@ -1,7 +1,12 @@
-22:01:18.658 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-22:01:18.695 [print] my name is Robert
-22:01:18.711 [print] Robert is 19 year old
-22:01:18.718 [print] 10
+22:09:51.303 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:09:51.452 [print] {
+  "name": "Hasan",
+  "role": "admin",
+  "age": 44
+}
+
+22:09:51.470 [print] 44
+t] 10
 me is Alp
 21:59:47.051 [print] .......
 Encoding: gzip,deflate
