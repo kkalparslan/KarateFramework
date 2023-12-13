@@ -15,6 +15,7 @@ Feature: Karate Java Integration
       When method POST
       Then status 200
       * print response
+
       # verify name
       * match response.name == NewUser.name
       * print response.token

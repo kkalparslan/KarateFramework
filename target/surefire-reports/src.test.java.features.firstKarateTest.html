@@ -168,32 +168,30 @@
 </img><div>
 <div class="scenario">
 <div class="scenario-heading">
-<span class="scenario-keyword">Scenario: [2:11]</span><span class="scenario-name">Variables</span>
+<span class="scenario-keyword">Scenario: [4:25]</span><span class="scenario-name">Json body</span>
 </div>
 <div class="step-row">
-<div class="step-cell passed">* def name = 'Robert'</div>
-<div class="time-cell passed">0.005333</div>
+<div class="step-cell passed">* def user =</div>
+<div class="time-cell passed">0.113189</div>
 </div>
-<div class="preformatted">22:01:18.658 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">{"name": "Hasan",
+ "role": "admin",
+ "age": 44}
+22:09:51.303 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
-<div class="step-cell passed">* print 'my name is', name</div>
-<div class="time-cell passed">0.00909</div>
+<div class="step-cell passed">* print user</div>
+<div class="time-cell passed">0.001693</div>
 </div>
-<div class="preformatted">22:01:18.695 [print] my name is Robert</div>
+<div class="preformatted">22:09:51.452 [print] {
+  "name": "Hasan",
+  "role": "admin",
+  "age": 44
+}</div>
 <div class="step-row">
-<div class="step-cell passed">* def age = 19</div>
-<div class="time-cell passed">0.004938</div>
+<div class="step-cell passed">* print user.age</div>
+<div class="time-cell passed">0.017711</div>
 </div>
-<div class="step-row">
-<div class="step-cell passed">* print name, 'is', age, 'year old'</div>
-<div class="time-cell passed">0.01037</div>
-</div>
-<div class="preformatted">22:01:18.711 [print] Robert is 19 year old</div>
-<div class="step-row">
-<div class="step-cell passed">* print 5+5</div>
-<div class="time-cell passed">0.006395</div>
-</div>
-<div class="preformatted">22:01:18.718 [print] 10</div>
+<div class="preformatted">22:09:51.470 [print] 44</div>
 </div>
 </div>
 </body>

@@ -3049,3 +3049,14 @@ email=user66%40test.com&password=Test123456
 22:01:18.711 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] Robert is 19 year old
 22:01:18.718 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 10
 22:01:18.949 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/firstKarateTest.feature
+22:09:51.090 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:09:51.096 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 25 - ^Json body$
+22:09:51.302 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:09:51.452 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "name": "Hasan",
+  "role": "admin",
+  "age": 44
+}
+
+22:09:51.470 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 44
+22:09:51.684 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/firstKarateTest.feature

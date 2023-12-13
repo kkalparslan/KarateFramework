@@ -1,9 +1,7 @@
-<testsuite failures="0" name="src/test/java/features/firstKarateTest.feature" skipped="0" tests="1" time="0.036126">
-  <testcase classname="src.test.java.features.firstKarateTest" name="Variables" time="0.036126">
-    <system-out>* def name = 'Robert' ..................................................... passed
-* print 'my name is', name ................................................ passed
-* def age = 19 ............................................................ passed
-* print name, 'is', age, 'year old' ....................................... passed
-* print 5+5 ............................................................... passed</system-out>
+<testsuite failures="0" name="src/test/java/features/firstKarateTest.feature" skipped="0" tests="1" time="0.132593">
+  <testcase classname="src.test.java.features.firstKarateTest" name="Json body" time="0.132593">
+    <system-out>* def user = .............................................................. passed
+* print user .............................................................. passed
+* print user.age .......................................................... passed</system-out>
   </testcase>
 </testsuite>
