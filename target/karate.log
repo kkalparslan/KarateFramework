@@ -3060,3 +3060,680 @@ email=user66%40test.com&password=Test123456
 
 22:09:51.470 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] 44
 22:09:51.684 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/firstKarateTest.feature
+09:44:01.923 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:44:02.043 [pool-1-thread-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:02.370 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:02.944 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=KAlp8%40krafttechexlab.com&password=123467
+
+09:44:03.601 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 652.86
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:30 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo5MzIsInN0YXJ0IjoxNzA4NDk3ODExLCJlbmRzIjoxNzA5MTAyNjExfQ.R5bKM38Ra5iEk4R_6Lten5iwiFWGWOuEi2N6cP-R7iYdu5vtjAja1oKzRaez_N8CpepYHVgETQnEaeLZR2UnFA"}
+
+09:44:03.604 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo5MzIsInN0YXJ0IjoxNzA4NDk3ODExLCJlbmRzIjoxNzA5MTAyNjExfQ.R5bKM38Ra5iEk4R_6Lten5iwiFWGWOuEi2N6cP-R7iYdu5vtjAja1oKzRaez_N8CpepYHVgETQnEaeLZR2UnFA"
+}
+
+09:44:03.613 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:03.621 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=Ramanzi%40test.com&password=Test123456
+
+09:44:03.851 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 228.97
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:31 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.lI_4-cWtwl0oLzZu1SoaAyxCxH-v7ZhSs2HAJWXk-8D2Gs0IzFlOVNdas4uWTsHwfB3ac_BvEt-l_Kf3jnjriQ"}
+
+09:44:03.852 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.lI_4-cWtwl0oLzZu1SoaAyxCxH-v7ZhSs2HAJWXk-8D2Gs0IzFlOVNdas4uWTsHwfB3ac_BvEt-l_Kf3jnjriQ"
+}
+
+09:44:03.860 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:03.866 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user11%40test.com&password=Test123456
+
+09:44:04.076 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 208.51
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:31 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.UR7HoZCXeD88cYbi6qUEJ3E6_ldtuVru1B_8zTWvZJZhW2kLiIqQhTvYNLDt4-Pf3dKAfjIRxrJjaFgQxUzXmQ"}
+
+09:44:04.076 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.UR7HoZCXeD88cYbi6qUEJ3E6_ldtuVru1B_8zTWvZJZhW2kLiIqQhTvYNLDt4-Pf3dKAfjIRxrJjaFgQxUzXmQ"
+}
+
+09:44:04.082 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:04.086 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user22%40test.com&password=Test123456
+
+09:44:04.306 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 219.46
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:31 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.ZC0bCOTkukTmdY49ZEDpu5G4HMth9QTU_iMJCCcWNF43-MWx_euxextpAnlyF3J7Gq7La1Up45597qan8EGrvw"}
+
+09:44:04.307 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.ZC0bCOTkukTmdY49ZEDpu5G4HMth9QTU_iMJCCcWNF43-MWx_euxextpAnlyF3J7Gq7La1Up45597qan8EGrvw"
+}
+
+09:44:04.316 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:04.321 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user33%40test.com&password=Test123456
+
+09:44:04.506 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 184.37
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:31 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.Bi_5mIspI-0E_cg31ETHRRXnO-nsH8TiweIgJTH_1pyYPQ10StMBquMCSym4Vk7GTLPEfGLRqFYLgntSl4Gznw"}
+
+09:44:04.506 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.Bi_5mIspI-0E_cg31ETHRRXnO-nsH8TiweIgJTH_1pyYPQ10StMBquMCSym4Vk7GTLPEfGLRqFYLgntSl4Gznw"
+}
+
+09:44:04.511 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:04.515 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user44%40test.com&password=Test123456
+
+09:44:04.712 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 195.78
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:32 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.ON9FaVH-UfWYR0Z-CoN05gk3DeXRcM96yEAz4XcuhtPUxW0GyeCfLlIY8DlwBYgtUhmqZxv_lkYjBypxUidXvQ"}
+
+09:44:04.714 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.ON9FaVH-UfWYR0Z-CoN05gk3DeXRcM96yEAz4XcuhtPUxW0GyeCfLlIY8DlwBYgtUhmqZxv_lkYjBypxUidXvQ"
+}
+
+09:44:04.725 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:04.732 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user55%40test.com&password=Test123456
+
+09:44:05.010 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 277.05
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:32 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.tGWXmNvVGtQSPlKkZjCxOvXlESMvz4QTKhtIGkWGeVn8eH2yfRIU5dY_gJVtWzCwsREbetE18Ab75Br3UkH7_w"}
+
+09:44:05.011 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.tGWXmNvVGtQSPlKkZjCxOvXlESMvz4QTKhtIGkWGeVn8eH2yfRIU5dY_gJVtWzCwsREbetE18Ab75Br3UkH7_w"
+}
+
+09:44:05.021 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:05.028 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user66%40test.com&password=Test123456
+
+09:44:05.227 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 198.73
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:32 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.r4WkTjB5NzkhqOjZDxfx1Xai0YgTUvStkV03qeMJpk0AS4IoVZipQDcVctgoMg7MZ0lY1yiBl1IJ1UjW6p_shQ"}
+
+09:44:05.229 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.r4WkTjB5NzkhqOjZDxfx1Xai0YgTUvStkV03qeMJpk0AS4IoVZipQDcVctgoMg7MZ0lY1yiBl1IJ1UjW6p_shQ"
+}
+
+09:44:05.252 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 46
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=thomas%40test.com&password=Test123456%21
+
+09:44:05.486 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 231.82
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:32 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoxMTEsInN0YXJ0IjoxNzA4NDk3ODEyLCJlbmRzIjoxNzA5MTAyNjEyfQ.vHSXgHREgqeDmAe5VJtHNbYSusTqiEnoLN2YtiVWreisYDvxgyTRp7vDoRe4cwtk7JZjVedsZcS4zz0MvtFfcA"}
+
+09:44:05.487 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjoxMTEsInN0YXJ0IjoxNzA4NDk3ODEyLCJlbmRzIjoxNzA5MTAyNjEyfQ.vHSXgHREgqeDmAe5VJtHNbYSusTqiEnoLN2YtiVWreisYDvxgyTRp7vDoRe4cwtk7JZjVedsZcS4zz0MvtFfcA"
+}
+
+09:44:05.504 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=Ramanzi%40test.com&password=Test123456
+
+09:44:05.820 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 315.66
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:33 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.lI_4-cWtwl0oLzZu1SoaAyxCxH-v7ZhSs2HAJWXk-8D2Gs0IzFlOVNdas4uWTsHwfB3ac_BvEt-l_Kf3jnjriQ"}
+
+09:44:05.820 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.lI_4-cWtwl0oLzZu1SoaAyxCxH-v7ZhSs2HAJWXk-8D2Gs0IzFlOVNdas4uWTsHwfB3ac_BvEt-l_Kf3jnjriQ"
+}
+
+09:44:05.825 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user11%40test.com&password=Test123456
+
+09:44:06.085 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 258.19
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:33 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.UR7HoZCXeD88cYbi6qUEJ3E6_ldtuVru1B_8zTWvZJZhW2kLiIqQhTvYNLDt4-Pf3dKAfjIRxrJjaFgQxUzXmQ"}
+
+09:44:06.086 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.UR7HoZCXeD88cYbi6qUEJ3E6_ldtuVru1B_8zTWvZJZhW2kLiIqQhTvYNLDt4-Pf3dKAfjIRxrJjaFgQxUzXmQ"
+}
+
+09:44:06.092 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user22%40test.com&password=Test123456
+
+09:44:06.321 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 228.45
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:33 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.ZC0bCOTkukTmdY49ZEDpu5G4HMth9QTU_iMJCCcWNF43-MWx_euxextpAnlyF3J7Gq7La1Up45597qan8EGrvw"}
+
+09:44:06.323 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.ZC0bCOTkukTmdY49ZEDpu5G4HMth9QTU_iMJCCcWNF43-MWx_euxextpAnlyF3J7Gq7La1Up45597qan8EGrvw"
+}
+
+09:44:06.335 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user33%40test.com&password=Test123456
+
+09:44:06.580 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 243.63
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:33 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.Bi_5mIspI-0E_cg31ETHRRXnO-nsH8TiweIgJTH_1pyYPQ10StMBquMCSym4Vk7GTLPEfGLRqFYLgntSl4Gznw"}
+
+09:44:06.581 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.Bi_5mIspI-0E_cg31ETHRRXnO-nsH8TiweIgJTH_1pyYPQ10StMBquMCSym4Vk7GTLPEfGLRqFYLgntSl4Gznw"
+}
+
+09:44:06.586 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user44%40test.com&password=Test123456
+
+09:44:06.796 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 209.59
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:34 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.ON9FaVH-UfWYR0Z-CoN05gk3DeXRcM96yEAz4XcuhtPUxW0GyeCfLlIY8DlwBYgtUhmqZxv_lkYjBypxUidXvQ"}
+
+09:44:06.796 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.ON9FaVH-UfWYR0Z-CoN05gk3DeXRcM96yEAz4XcuhtPUxW0GyeCfLlIY8DlwBYgtUhmqZxv_lkYjBypxUidXvQ"
+}
+
+09:44:06.801 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user55%40test.com&password=Test123456
+
+09:44:07.000 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 197.40
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:34 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.tGWXmNvVGtQSPlKkZjCxOvXlESMvz4QTKhtIGkWGeVn8eH2yfRIU5dY_gJVtWzCwsREbetE18Ab75Br3UkH7_w"}
+
+09:44:07.002 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.tGWXmNvVGtQSPlKkZjCxOvXlESMvz4QTKhtIGkWGeVn8eH2yfRIU5dY_gJVtWzCwsREbetE18Ab75Br3UkH7_w"
+}
+
+09:44:07.016 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user66%40test.com&password=Test123456
+
+09:44:07.230 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 213.43
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:43:34 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.r4WkTjB5NzkhqOjZDxfx1Xai0YgTUvStkV03qeMJpk0AS4IoVZipQDcVctgoMg7MZ0lY1yiBl1IJ1UjW6p_shQ"}
+
+09:44:07.233 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.r4WkTjB5NzkhqOjZDxfx1Xai0YgTUvStkV03qeMJpk0AS4IoVZipQDcVctgoMg7MZ0lY1yiBl1IJ1UjW6p_shQ"
+}
+
+09:44:07.378 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/dataDrivenTest.feature
+09:44:39.247 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+09:44:39.255 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 14 - ^Login users$
+09:44:39.265 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 15 - ^Login users$
+09:44:39.273 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 16 - ^Login users$
+09:44:39.279 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 17 - ^Login users$
+09:44:39.287 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 18 - ^Login users$
+09:44:39.292 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 19 - ^Login users$
+09:44:39.296 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 20 - ^Login users$
+09:44:39.303 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 21 - ^Login users$
+09:44:39.391 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:39.853 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 48
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=KAlp8%40krafttechexlab.com&password=123467
+
+09:44:40.300 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 442.15
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:07 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo5MzIsInN0YXJ0IjoxNzA4NDk3ODExLCJlbmRzIjoxNzA5MTAyNjExfQ.R5bKM38Ra5iEk4R_6Lten5iwiFWGWOuEi2N6cP-R7iYdu5vtjAja1oKzRaez_N8CpepYHVgETQnEaeLZR2UnFA"}
+
+09:44:40.357 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo5MzIsInN0YXJ0IjoxNzA4NDk3ODExLCJlbmRzIjoxNzA5MTAyNjExfQ.R5bKM38Ra5iEk4R_6Lten5iwiFWGWOuEi2N6cP-R7iYdu5vtjAja1oKzRaez_N8CpepYHVgETQnEaeLZR2UnFA"
+}
+
+09:44:40.361 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:40.368 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 44
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=Ramanzi%40test.com&password=Test123456
+
+09:44:40.566 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 198.08
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:07 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.lI_4-cWtwl0oLzZu1SoaAyxCxH-v7ZhSs2HAJWXk-8D2Gs0IzFlOVNdas4uWTsHwfB3ac_BvEt-l_Kf3jnjriQ"}
+
+09:44:40.568 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjozNiwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.lI_4-cWtwl0oLzZu1SoaAyxCxH-v7ZhSs2HAJWXk-8D2Gs0IzFlOVNdas4uWTsHwfB3ac_BvEt-l_Kf3jnjriQ"
+}
+
+09:44:40.585 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:40.591 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user11%40test.com&password=Test123456
+
+09:44:40.765 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 172.79
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:08 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.UR7HoZCXeD88cYbi6qUEJ3E6_ldtuVru1B_8zTWvZJZhW2kLiIqQhTvYNLDt4-Pf3dKAfjIRxrJjaFgQxUzXmQ"}
+
+09:44:40.766 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Mywic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.UR7HoZCXeD88cYbi6qUEJ3E6_ldtuVru1B_8zTWvZJZhW2kLiIqQhTvYNLDt4-Pf3dKAfjIRxrJjaFgQxUzXmQ"
+}
+
+09:44:40.778 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:40.783 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user22%40test.com&password=Test123456
+
+09:44:40.963 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 180.18
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:08 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.ZC0bCOTkukTmdY49ZEDpu5G4HMth9QTU_iMJCCcWNF43-MWx_euxextpAnlyF3J7Gq7La1Up45597qan8EGrvw"}
+
+09:44:40.963 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NCwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.ZC0bCOTkukTmdY49ZEDpu5G4HMth9QTU_iMJCCcWNF43-MWx_euxextpAnlyF3J7Gq7La1Up45597qan8EGrvw"
+}
+
+09:44:40.970 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:40.974 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user33%40test.com&password=Test123456
+
+09:44:41.189 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 214.35
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:08 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.Bi_5mIspI-0E_cg31ETHRRXnO-nsH8TiweIgJTH_1pyYPQ10StMBquMCSym4Vk7GTLPEfGLRqFYLgntSl4Gznw"}
+
+09:44:41.191 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4NSwic3RhcnQiOjE3MDg0OTc4MTEsImVuZHMiOjE3MDkxMDI2MTF9.Bi_5mIspI-0E_cg31ETHRRXnO-nsH8TiweIgJTH_1pyYPQ10StMBquMCSym4Vk7GTLPEfGLRqFYLgntSl4Gznw"
+}
+
+09:44:41.210 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:41.218 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user44%40test.com&password=Test123456
+
+09:44:41.457 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 237.78
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:08 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.ON9FaVH-UfWYR0Z-CoN05gk3DeXRcM96yEAz4XcuhtPUxW0GyeCfLlIY8DlwBYgtUhmqZxv_lkYjBypxUidXvQ"}
+
+09:44:41.458 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Niwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.ON9FaVH-UfWYR0Z-CoN05gk3DeXRcM96yEAz4XcuhtPUxW0GyeCfLlIY8DlwBYgtUhmqZxv_lkYjBypxUidXvQ"
+}
+
+09:44:41.464 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:41.470 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user55%40test.com&password=Test123456
+
+09:44:41.690 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 219.04
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:09 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.tGWXmNvVGtQSPlKkZjCxOvXlESMvz4QTKhtIGkWGeVn8eH2yfRIU5dY_gJVtWzCwsREbetE18Ab75Br3UkH7_w"}
+
+09:44:41.692 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4Nywic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.tGWXmNvVGtQSPlKkZjCxOvXlESMvz4QTKhtIGkWGeVn8eH2yfRIU5dY_gJVtWzCwsREbetE18Ab75Br3UkH7_w"
+}
+
+09:44:41.705 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+09:44:41.713 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST https://www.krafttechexlab.com/sw/api/v1/allusers/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 43
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: www.krafttechexlab.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_372)
+email=user66%40test.com&password=Test123456
+
+09:44:41.903 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 187.90
+1 < 200
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Origin: *
+1 < Connection: Upgrade, Keep-Alive
+1 < Content-Type: application/json; charset=UTF-8
+1 < Date: Wed, 21 Feb 2024 06:44:09 GMT
+1 < Keep-Alive: timeout=2, max=100
+1 < Server: Apache/2
+1 < Upgrade: h2,h2c
+1 < Vary: Accept-Encoding,User-Agent
+{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.r4WkTjB5NzkhqOjZDxfx1Xai0YgTUvStkV03qeMJpk0AS4IoVZipQDcVctgoMg7MZ0lY1yiBl1IJ1UjW6p_shQ"}
+
+09:44:41.905 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - [print] {
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdXQiOiJhRm0iLCJsaW5rIjoia3JhZnR0ZWNoZXhsYWIuY29tIiwidXNlcmlkIjo4OCwic3RhcnQiOjE3MDg0OTc4MTIsImVuZHMiOjE3MDkxMDI2MTJ9.r4WkTjB5NzkhqOjZDxfx1Xai0YgTUvStkV03qeMJpk0AS4IoVZipQDcVctgoMg7MZ0lY1yiBl1IJ1UjW6p_shQ"
+}
+
+09:44:42.024 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/features/dataDrivenTest.feature
