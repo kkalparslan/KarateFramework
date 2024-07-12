@@ -35,10 +35,8 @@ Feature: API Tests
       Then status 200
       * print response
   #    * def expectedInfo = read('classpath:data/userInfo.json')
-
   #    Then match response == expectedInfo
-
- # * match response.experience[0].company == 'Kraftech'
+  # * match response.experience[0].company == 'Kraftech'
 
 
 

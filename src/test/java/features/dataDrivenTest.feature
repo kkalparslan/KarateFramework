@@ -20,7 +20,6 @@ Feature: Data Driven Test
       | user55@test.com          | Test123456 |
       | user66@test.com          | Test123456 |
 
-
     Scenario Outline:
       Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login'
       * form field email = '<email>'

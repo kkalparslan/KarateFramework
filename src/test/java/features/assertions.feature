@@ -27,7 +27,6 @@ Feature: Using match keyword
         # Fuzzy matching lerde == value lar '#string' olabileceği gibi yukarıdaki değer
         # ile de assert edilebilir.
 
-
         Scenario: Contains matching
           * def users =
           """
