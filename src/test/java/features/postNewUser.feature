@@ -16,7 +16,7 @@ Feature: Create a new user
   "password": "123467",
   "about": "About Me",
   "terms": "10"
-}
+  }
       """
       When method POST
       #  Then status 200  status code paralel testte hata veriyor.
